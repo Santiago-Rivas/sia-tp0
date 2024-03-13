@@ -8,7 +8,6 @@ import numpy as np
 from IPython.display import display
 
 
-
 def plot_pokeball_means(pokeballs, pokemons, stats_df):
     pokeballs_mean = {}
 
@@ -127,41 +126,45 @@ colors = {
     "heavyball": 'y',
 }
 
-def question_2a(pokemon_name): #Agregar como parametros el pokemon
+
+def plot_status(factory, pokemon_name):  # Agregar como parametros el pokemon
+    tries = 100
     attempts = 1000
     pokemon = pokemon_name
-    
-    df = pd.DataFrame(columns=["name", "pokeball", "status", "accuracy", "error"])
+
+    df = pd.DataFrame(columns=["name", "pokeball",
+                      "status", "accuracy", "error"])
     for status in StatusEffect:
         health = 1
-        new_pokemon =factory.create(pokemon,100, status, health)
+        new_pokemon = factory.create(pokemon, 100, status, health)
         for pokeball in pokeballs:
             accuracies = []
-            for _ in range(100):
+            for _ in range(tries):
                 catched = 0
                 for _ in range(attempts):
                     attempt, rate = attempt_catch(new_pokemon, pokeball)
                     if attempt:
                         catched += 1
                 accuracies.append(catched / attempts)
-            df.loc[len(df)] = [pokemon, pokeball, status.name, np.mean(accuracies), np.std(accuracies)]
-
+            df.loc[len(df)] = [pokemon, pokeball, status.name,
+                               np.mean(accuracies), np.std(accuracies)]
 
     display(df)
 
     for pokeball in df["pokeball"].unique():
         df_pokeball = df[df["pokeball"] == pokeball]
-        plt.plot(df_pokeball['status'], df_pokeball['accuracy'], color=colors[pokeball], marker='o', label=pokeball)
-        plt.errorbar(df_pokeball['status'], df_pokeball['accuracy'], df_pokeball['error'], fmt='none', color=colors[pokeball], capsize=3)
+        plt.plot(df_pokeball['status'], df_pokeball['accuracy'],
+                 color=colors[pokeball], marker='o', label=pokeball)
+        plt.errorbar(df_pokeball['status'], df_pokeball['accuracy'],
+                     df_pokeball['error'], fmt='none', color=colors[pokeball], capsize=3)
 
-    plt.title('accuracy vs status for '+ pokemon, fontsize=14)
+    plt.title('accuracy vs status for ' + pokemon, fontsize=14)
     plt.xlabel('status', fontsize=14)
     plt.ylabel('accuracy', fontsize=14)
     plt.legend()
     plt.grid(True)
     plt.show()
     plt.close()
-
 
 
 if __name__ == "__main__":
@@ -200,3 +203,4 @@ if __name__ == "__main__":
     plot_heavy(pokeballs, pokemons, stats_df)
     plot_fast(pokeballs, pokemons, stats_df)
     plot_ultra(pokeballs, pokemons, stats_df)
+    plot_status(factory, "pikachu")
