@@ -1,32 +1,12946 @@
 {
-  "jolteon": {
-      "type": ["ELECTRIC", "NONE"],
-      "stats": [65, 65, 60, 110, 95, 130],
-      "weight": 54,
-      "catch_rate": 45
-    },
+  "bulbasaur": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      45,
+      49,
+      49,
+      65,
+      65,
+      45
+    ],
+    "weight": 6.9,
+    "catch_rate": 45
+  },
+  "ivysaur": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      62,
+      63,
+      80,
+      80,
+      60
+    ],
+    "weight": 13,
+    "catch_rate": 45
+  },
+  "venusaur": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      80,
+      82,
+      83,
+      100,
+      100,
+      80
+    ],
+    "weight": 100,
+    "catch_rate": 45
+  },
+  "charmander": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      39,
+      52,
+      43,
+      60,
+      50,
+      65
+    ],
+    "weight": 8.5,
+    "catch_rate": 45
+  },
+  "charmeleon": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      58,
+      64,
+      58,
+      80,
+      65,
+      80
+    ],
+    "weight": 19,
+    "catch_rate": 45
+  },
+  "charizard": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      78,
+      84,
+      78,
+      109,
+      85,
+      100
+    ],
+    "weight": 90.5,
+    "catch_rate": 45
+  },
+  "squirtle": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      44,
+      48,
+      65,
+      50,
+      64,
+      43
+    ],
+    "weight": 9,
+    "catch_rate": 45
+  },
+  "wartortle": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      59,
+      63,
+      80,
+      65,
+      80,
+      58
+    ],
+    "weight": 22.5,
+    "catch_rate": 45
+  },
+  "blastoise": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      79,
+      83,
+      100,
+      85,
+      105,
+      78
+    ],
+    "weight": 85.5,
+    "catch_rate": 45
+  },
   "caterpie": {
-      "type": ["BUG", "NONE"],
-      "stats": [45, 30, 35, 20, 20, 45],
-      "weight": 6.4,
-      "catch_rate": 255
-    },
-  "snorlax": {
-      "type": ["NORMAL", "NONE"],
-      "stats": [160, 110, 65, 65, 110, 30],
-      "weight": 1014.1,
-      "catch_rate": 25
-    },
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      30,
+      35,
+      20,
+      20,
+      45
+    ],
+    "weight": 2.9,
+    "catch_rate": 255
+  },
+  "metapod": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      20,
+      55,
+      25,
+      25,
+      30
+    ],
+    "weight": 9.9,
+    "catch_rate": 120
+  },
+  "butterfree": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      45,
+      50,
+      90,
+      80,
+      70
+    ],
+    "weight": 32,
+    "catch_rate": 45
+  },
+  "weedle": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      40,
+      35,
+      30,
+      20,
+      20,
+      50
+    ],
+    "weight": 3.2,
+    "catch_rate": 255
+  },
+  "kakuna": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      45,
+      25,
+      50,
+      25,
+      25,
+      35
+    ],
+    "weight": 10,
+    "catch_rate": 120
+  },
+  "beedrill": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      65,
+      90,
+      40,
+      45,
+      80,
+      75
+    ],
+    "weight": 29.5,
+    "catch_rate": 45
+  },
+  "pidgey": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      45,
+      40,
+      35,
+      35,
+      56
+    ],
+    "weight": 1.8,
+    "catch_rate": 255
+  },
+  "pidgeotto": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      63,
+      60,
+      55,
+      50,
+      50,
+      71
+    ],
+    "weight": 30,
+    "catch_rate": 120
+  },
+  "pidgeot": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      83,
+      80,
+      75,
+      70,
+      70,
+      101
+    ],
+    "weight": 39.5,
+    "catch_rate": 45
+  },
+  "rattata": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      56,
+      35,
+      25,
+      35,
+      72
+    ],
+    "weight": 3.5,
+    "catch_rate": 255
+  },
+  "raticate": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      81,
+      60,
+      50,
+      70,
+      97
+    ],
+    "weight": 18.5,
+    "catch_rate": 127
+  },
+  "spearow": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      60,
+      30,
+      31,
+      31,
+      70
+    ],
+    "weight": 2,
+    "catch_rate": 255
+  },
+  "fearow": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      90,
+      65,
+      61,
+      61,
+      100
+    ],
+    "weight": 38,
+    "catch_rate": 90
+  },
+  "ekans": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      60,
+      44,
+      40,
+      54,
+      55
+    ],
+    "weight": 6.9,
+    "catch_rate": 255
+  },
+  "arbok": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      95,
+      69,
+      65,
+      79,
+      80
+    ],
+    "weight": 65,
+    "catch_rate": 90
+  },
+  "pikachu": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      55,
+      40,
+      50,
+      50,
+      90
+    ],
+    "weight": 6,
+    "catch_rate": 190
+  },
+  "raichu": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      90,
+      55,
+      90,
+      80,
+      110
+    ],
+    "weight": 30,
+    "catch_rate": 75
+  },
+  "sandshrew": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      75,
+      85,
+      20,
+      30,
+      40
+    ],
+    "weight": 12,
+    "catch_rate": 255
+  },
+  "sandslash": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      100,
+      110,
+      45,
+      55,
+      65
+    ],
+    "weight": 29.5,
+    "catch_rate": 90
+  },
+  "nidoran\u2640": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      47,
+      52,
+      40,
+      40,
+      41
+    ],
+    "weight": 7,
+    "catch_rate": 235
+  },
+  "nidorina": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      62,
+      67,
+      55,
+      55,
+      56
+    ],
+    "weight": 20,
+    "catch_rate": 120
+  },
+  "nidoqueen": {
+    "type": [
+      "POISON",
+      "GROUND"
+    ],
+    "stats": [
+      90,
+      92,
+      87,
+      75,
+      85,
+      76
+    ],
+    "weight": 60,
+    "catch_rate": 45
+  },
+  "nidoran\u2642": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      46,
+      57,
+      40,
+      40,
+      40,
+      50
+    ],
+    "weight": 9,
+    "catch_rate": 235
+  },
+  "nidorino": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      61,
+      72,
+      57,
+      55,
+      55,
+      65
+    ],
+    "weight": 19.5,
+    "catch_rate": 120
+  },
+  "nidoking": {
+    "type": [
+      "POISON",
+      "GROUND"
+    ],
+    "stats": [
+      81,
+      102,
+      77,
+      85,
+      75,
+      85
+    ],
+    "weight": 62,
+    "catch_rate": 45
+  },
+  "clefairy": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      45,
+      48,
+      60,
+      65,
+      35
+    ],
+    "weight": 7.5,
+    "catch_rate": 150
+  },
+  "clefable": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      70,
+      73,
+      95,
+      90,
+      60
+    ],
+    "weight": 40,
+    "catch_rate": 25
+  },
+  "vulpix": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      38,
+      41,
+      40,
+      50,
+      65,
+      65
+    ],
+    "weight": 9.9,
+    "catch_rate": 190
+  },
+  "ninetales": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      73,
+      76,
+      75,
+      81,
+      100,
+      100
+    ],
+    "weight": 19.9,
+    "catch_rate": 75
+  },
+  "jigglypuff": {
+    "type": [
+      "NORMAL",
+      "FAIRY"
+    ],
+    "stats": [
+      115,
+      45,
+      20,
+      45,
+      25,
+      20
+    ],
+    "weight": 5.5,
+    "catch_rate": 170
+  },
+  "wigglytuff": {
+    "type": [
+      "NORMAL",
+      "FAIRY"
+    ],
+    "stats": [
+      140,
+      70,
+      45,
+      85,
+      50,
+      45
+    ],
+    "weight": 12,
+    "catch_rate": 50
+  },
+  "zubat": {
+    "type": [
+      "POISON",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      45,
+      35,
+      30,
+      40,
+      55
+    ],
+    "weight": 7.5,
+    "catch_rate": 255
+  },
+  "golbat": {
+    "type": [
+      "POISON",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      80,
+      70,
+      65,
+      75,
+      90
+    ],
+    "weight": 55,
+    "catch_rate": 90
+  },
+  "oddish": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      45,
+      50,
+      55,
+      75,
+      65,
+      30
+    ],
+    "weight": 5.4,
+    "catch_rate": 255
+  },
+  "gloom": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      65,
+      70,
+      85,
+      75,
+      40
+    ],
+    "weight": 8.6,
+    "catch_rate": 120
+  },
+  "vileplume": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      75,
+      80,
+      85,
+      110,
+      90,
+      50
+    ],
+    "weight": 18.6,
+    "catch_rate": 45
+  },
+  "paras": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      35,
+      70,
+      55,
+      45,
+      55,
+      25
+    ],
+    "weight": 5.4,
+    "catch_rate": 190
+  },
+  "parasect": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      60,
+      95,
+      80,
+      60,
+      80,
+      30
+    ],
+    "weight": 29.5,
+    "catch_rate": 75
+  },
+  "venonat": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      55,
+      50,
+      40,
+      55,
+      45
+    ],
+    "weight": 30,
+    "catch_rate": 190
+  },
+  "venomoth": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      70,
+      65,
+      60,
+      90,
+      75,
+      90
+    ],
+    "weight": 12.5,
+    "catch_rate": 75
+  },
+  "diglett": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      10,
+      55,
+      25,
+      35,
+      45,
+      95
+    ],
+    "weight": 0.8,
+    "catch_rate": 255
+  },
+  "dugtrio": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      100,
+      50,
+      50,
+      70,
+      120
+    ],
+    "weight": 33.3,
+    "catch_rate": 50
+  },
+  "meowth": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      45,
+      35,
+      40,
+      40,
+      90
+    ],
+    "weight": 4.2,
+    "catch_rate": 255
+  },
+  "persian": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      70,
+      60,
+      65,
+      65,
+      115
+    ],
+    "weight": 32,
+    "catch_rate": 90
+  },
+  "psyduck": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      52,
+      48,
+      65,
+      50,
+      55
+    ],
+    "weight": 19.6,
+    "catch_rate": 190
+  },
+  "golduck": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      82,
+      78,
+      95,
+      80,
+      85
+    ],
+    "weight": 76.6,
+    "catch_rate": 75
+  },
+  "mankey": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      80,
+      35,
+      35,
+      45,
+      70
+    ],
+    "weight": 28,
+    "catch_rate": 190
+  },
+  "primeape": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      105,
+      60,
+      60,
+      70,
+      95
+    ],
+    "weight": 32,
+    "catch_rate": 75
+  },
+  "growlithe": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      70,
+      45,
+      70,
+      50,
+      60
+    ],
+    "weight": 19,
+    "catch_rate": 190
+  },
+  "arcanine": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      110,
+      80,
+      100,
+      80,
+      95
+    ],
+    "weight": 155,
+    "catch_rate": 75
+  },
+  "poliwag": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      50,
+      40,
+      40,
+      40,
+      90
+    ],
+    "weight": 12.4,
+    "catch_rate": 255
+  },
+  "poliwhirl": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      65,
+      65,
+      50,
+      50,
+      90
+    ],
+    "weight": 20,
+    "catch_rate": 120
+  },
+  "poliwrath": {
+    "type": [
+      "WATER",
+      "FIGHTING"
+    ],
+    "stats": [
+      90,
+      95,
+      95,
+      70,
+      90,
+      70
+    ],
+    "weight": 54,
+    "catch_rate": 45
+  },
+  "abra": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      25,
+      20,
+      15,
+      105,
+      55,
+      90
+    ],
+    "weight": 19.5,
+    "catch_rate": 200
+  },
+  "kadabra": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      35,
+      30,
+      120,
+      70,
+      105
+    ],
+    "weight": 56.5,
+    "catch_rate": 100
+  },
+  "alakazam": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      50,
+      45,
+      135,
+      95,
+      120
+    ],
+    "weight": 48,
+    "catch_rate": 50
+  },
+  "machop": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      80,
+      50,
+      35,
+      35,
+      35
+    ],
+    "weight": 19.5,
+    "catch_rate": 180
+  },
+  "machoke": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      100,
+      70,
+      50,
+      60,
+      45
+    ],
+    "weight": 70.5,
+    "catch_rate": 90
+  },
+  "machamp": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      130,
+      80,
+      65,
+      85,
+      55
+    ],
+    "weight": 130,
+    "catch_rate": 45
+  },
+  "bellsprout": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      50,
+      75,
+      35,
+      70,
+      30,
+      40
+    ],
+    "weight": 4,
+    "catch_rate": 255
+  },
+  "weepinbell": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      65,
+      90,
+      50,
+      85,
+      45,
+      55
+    ],
+    "weight": 6.4,
+    "catch_rate": 120
+  },
+  "victreebel": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      80,
+      105,
+      65,
+      100,
+      70,
+      70
+    ],
+    "weight": 15.5,
+    "catch_rate": 45
+  },
+  "tentacool": {
+    "type": [
+      "WATER",
+      "POISON"
+    ],
+    "stats": [
+      40,
+      40,
+      35,
+      50,
+      100,
+      70
+    ],
+    "weight": 45.5,
+    "catch_rate": 190
+  },
+  "tentacruel": {
+    "type": [
+      "WATER",
+      "POISON"
+    ],
+    "stats": [
+      80,
+      70,
+      65,
+      80,
+      120,
+      100
+    ],
+    "weight": 55,
+    "catch_rate": 60
+  },
+  "geodude": {
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      40,
+      80,
+      100,
+      30,
+      30,
+      20
+    ],
+    "weight": 20,
+    "catch_rate": 255
+  },
+  "graveler": {
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      55,
+      95,
+      115,
+      45,
+      45,
+      35
+    ],
+    "weight": 105,
+    "catch_rate": 120
+  },
+  "golem": {
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      80,
+      120,
+      130,
+      55,
+      65,
+      45
+    ],
+    "weight": 300,
+    "catch_rate": 45
+  },
+  "ponyta": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      85,
+      55,
+      65,
+      65,
+      90
+    ],
+    "weight": 30,
+    "catch_rate": 190
+  },
+  "rapidash": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      100,
+      70,
+      80,
+      80,
+      105
+    ],
+    "weight": 95,
+    "catch_rate": 60
+  },
+  "slowpoke": {
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "stats": [
+      90,
+      65,
+      65,
+      40,
+      40,
+      15
+    ],
+    "weight": 36,
+    "catch_rate": 190
+  },
+  "slowbro": {
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "stats": [
+      95,
+      75,
+      110,
+      100,
+      80,
+      30
+    ],
+    "weight": 78.5,
+    "catch_rate": 75
+  },
+  "magnemite": {
+    "type": [
+      "ELECTRIC",
+      "STEEL"
+    ],
+    "stats": [
+      25,
+      35,
+      70,
+      95,
+      55,
+      45
+    ],
+    "weight": 6,
+    "catch_rate": 190
+  },
+  "magneton": {
+    "type": [
+      "ELECTRIC",
+      "STEEL"
+    ],
+    "stats": [
+      50,
+      60,
+      95,
+      120,
+      70,
+      70
+    ],
+    "weight": 60,
+    "catch_rate": 60
+  },
+  "farfetch'd": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      52,
+      90,
+      55,
+      58,
+      62,
+      60
+    ],
+    "weight": 15,
+    "catch_rate": 45
+  },
+  "doduo": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      35,
+      85,
+      45,
+      35,
+      35,
+      75
+    ],
+    "weight": 39.2,
+    "catch_rate": 190
+  },
+  "dodrio": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      110,
+      70,
+      60,
+      60,
+      110
+    ],
+    "weight": 85.2,
+    "catch_rate": 45
+  },
+  "seel": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      45,
+      55,
+      45,
+      70,
+      45
+    ],
+    "weight": 90,
+    "catch_rate": 190
+  },
+  "dewgong": {
+    "type": [
+      "WATER",
+      "ICE"
+    ],
+    "stats": [
+      90,
+      70,
+      80,
+      70,
+      95,
+      70
+    ],
+    "weight": 120,
+    "catch_rate": 75
+  },
+  "grimer": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      80,
+      50,
+      40,
+      50,
+      25
+    ],
+    "weight": 30,
+    "catch_rate": 190
+  },
+  "muk": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      105,
+      105,
+      75,
+      65,
+      100,
+      50
+    ],
+    "weight": 30,
+    "catch_rate": 75
+  },
+  "shellder": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      65,
+      100,
+      45,
+      25,
+      40
+    ],
+    "weight": 4,
+    "catch_rate": 190
+  },
+  "cloyster": {
+    "type": [
+      "WATER",
+      "ICE"
+    ],
+    "stats": [
+      50,
+      95,
+      180,
+      85,
+      45,
+      70
+    ],
+    "weight": 132.5,
+    "catch_rate": 60
+  },
+  "gastly": {
+    "type": [
+      "GHOST",
+      "POISON"
+    ],
+    "stats": [
+      30,
+      35,
+      30,
+      100,
+      35,
+      80
+    ],
+    "weight": 0.1,
+    "catch_rate": 190
+  },
+  "haunter": {
+    "type": [
+      "GHOST",
+      "POISON"
+    ],
+    "stats": [
+      45,
+      50,
+      45,
+      115,
+      55,
+      95
+    ],
+    "weight": 0.1,
+    "catch_rate": 90
+  },
+  "gengar": {
+    "type": [
+      "GHOST",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      65,
+      60,
+      130,
+      75,
+      110
+    ],
+    "weight": 40.5,
+    "catch_rate": 45
+  },
   "onix": {
-      "type": ["ROCK", "GROUND"],
-      "stats": [35, 45, 160, 30, 45, 70],
-      "weight": 463,
-      "catch_rate": 45
-    },
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      35,
+      45,
+      160,
+      30,
+      45,
+      70
+    ],
+    "weight": 210,
+    "catch_rate": 45
+  },
+  "drowzee": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      48,
+      45,
+      43,
+      90,
+      42
+    ],
+    "weight": 32.4,
+    "catch_rate": 190
+  },
+  "hypno": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      73,
+      70,
+      73,
+      115,
+      67
+    ],
+    "weight": 75.6,
+    "catch_rate": 75
+  },
+  "krabby": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      105,
+      90,
+      25,
+      25,
+      50
+    ],
+    "weight": 6.5,
+    "catch_rate": 225
+  },
+  "kingler": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      130,
+      115,
+      50,
+      50,
+      75
+    ],
+    "weight": 60,
+    "catch_rate": 60
+  },
+  "voltorb": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      30,
+      50,
+      55,
+      55,
+      100
+    ],
+    "weight": 10.4,
+    "catch_rate": 190
+  },
+  "electrode": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      50,
+      70,
+      80,
+      80,
+      150
+    ],
+    "weight": 66.6,
+    "catch_rate": 60
+  },
+  "exeggcute": {
+    "type": [
+      "GRASS",
+      "PSYCHIC"
+    ],
+    "stats": [
+      60,
+      40,
+      80,
+      60,
+      45,
+      40
+    ],
+    "weight": 2.5,
+    "catch_rate": 90
+  },
+  "exeggutor": {
+    "type": [
+      "GRASS",
+      "PSYCHIC"
+    ],
+    "stats": [
+      95,
+      95,
+      85,
+      125,
+      75,
+      55
+    ],
+    "weight": 120,
+    "catch_rate": 45
+  },
+  "cubone": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      50,
+      95,
+      40,
+      50,
+      35
+    ],
+    "weight": 6.5,
+    "catch_rate": 190
+  },
+  "marowak": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      80,
+      110,
+      50,
+      80,
+      45
+    ],
+    "weight": 45,
+    "catch_rate": 75
+  },
+  "hitmonlee": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      120,
+      53,
+      35,
+      110,
+      87
+    ],
+    "weight": 49.8,
+    "catch_rate": 45
+  },
+  "hitmonchan": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      105,
+      79,
+      35,
+      110,
+      76
+    ],
+    "weight": 50.2,
+    "catch_rate": 45
+  },
+  "lickitung": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      55,
+      75,
+      60,
+      75,
+      30
+    ],
+    "weight": 65.5,
+    "catch_rate": 45
+  },
+  "koffing": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      65,
+      95,
+      60,
+      45,
+      35
+    ],
+    "weight": 1,
+    "catch_rate": 190
+  },
+  "weezing": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      90,
+      120,
+      85,
+      70,
+      60
+    ],
+    "weight": 9.5,
+    "catch_rate": 60
+  },
+  "rhyhorn": {
+    "type": [
+      "GROUND",
+      "ROCK"
+    ],
+    "stats": [
+      80,
+      85,
+      95,
+      30,
+      30,
+      25
+    ],
+    "weight": 115,
+    "catch_rate": 120
+  },
+  "rhydon": {
+    "type": [
+      "GROUND",
+      "ROCK"
+    ],
+    "stats": [
+      105,
+      130,
+      120,
+      45,
+      45,
+      40
+    ],
+    "weight": 120,
+    "catch_rate": 60
+  },
+  "chansey": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      250,
+      5,
+      5,
+      35,
+      105,
+      50
+    ],
+    "weight": 34.6,
+    "catch_rate": 30
+  },
+  "tangela": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      55,
+      115,
+      100,
+      40,
+      60
+    ],
+    "weight": 35,
+    "catch_rate": 45
+  },
+  "kangaskhan": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      105,
+      95,
+      80,
+      40,
+      80,
+      90
+    ],
+    "weight": 80,
+    "catch_rate": 45
+  },
+  "horsea": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      40,
+      70,
+      70,
+      25,
+      60
+    ],
+    "weight": 8,
+    "catch_rate": 225
+  },
+  "seadra": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      65,
+      95,
+      95,
+      45,
+      85
+    ],
+    "weight": 25,
+    "catch_rate": 75
+  },
+  "goldeen": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      67,
+      60,
+      35,
+      50,
+      63
+    ],
+    "weight": 15,
+    "catch_rate": 225
+  },
+  "seaking": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      92,
+      65,
+      65,
+      80,
+      68
+    ],
+    "weight": 39,
+    "catch_rate": 60
+  },
+  "staryu": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      45,
+      55,
+      70,
+      55,
+      85
+    ],
+    "weight": 34.5,
+    "catch_rate": 225
+  },
+  "starmie": {
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "stats": [
+      60,
+      75,
+      85,
+      100,
+      85,
+      115
+    ],
+    "weight": 80,
+    "catch_rate": 60
+  },
+  "mr. mime": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      40,
+      45,
+      65,
+      100,
+      120,
+      90
+    ],
+    "weight": 54.5,
+    "catch_rate": 45
+  },
+  "scyther": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      110,
+      80,
+      55,
+      80,
+      105
+    ],
+    "weight": 56,
+    "catch_rate": 45
+  },
+  "jynx": {
+    "type": [
+      "ICE",
+      "PSYCHIC"
+    ],
+    "stats": [
+      65,
+      50,
+      35,
+      115,
+      95,
+      95
+    ],
+    "weight": 40.6,
+    "catch_rate": 45
+  },
+  "electabuzz": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      83,
+      57,
+      95,
+      85,
+      105
+    ],
+    "weight": 30,
+    "catch_rate": 45
+  },
+  "magmar": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      95,
+      57,
+      100,
+      85,
+      93
+    ],
+    "weight": 44.5,
+    "catch_rate": 45
+  },
+  "pinsir": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      125,
+      100,
+      55,
+      70,
+      85
+    ],
+    "weight": 55,
+    "catch_rate": 45
+  },
+  "tauros": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      100,
+      95,
+      40,
+      70,
+      110
+    ],
+    "weight": 88.4,
+    "catch_rate": 45
+  },
+  "magikarp": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      20,
+      10,
+      55,
+      15,
+      20,
+      80
+    ],
+    "weight": 10,
+    "catch_rate": 255
+  },
+  "gyarados": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      95,
+      125,
+      79,
+      60,
+      100,
+      81
+    ],
+    "weight": 235,
+    "catch_rate": 45
+  },
+  "lapras": {
+    "type": [
+      "WATER",
+      "ICE"
+    ],
+    "stats": [
+      130,
+      85,
+      80,
+      85,
+      95,
+      60
+    ],
+    "weight": 220,
+    "catch_rate": 45
+  },
+  "ditto": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      48,
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "weight": 4,
+    "catch_rate": 35
+  },
+  "eevee": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      55,
+      50,
+      45,
+      65,
+      55
+    ],
+    "weight": 6.5,
+    "catch_rate": 45
+  },
+  "vaporeon": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      130,
+      65,
+      60,
+      110,
+      95,
+      65
+    ],
+    "weight": 29,
+    "catch_rate": 45
+  },
+  "jolteon": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      65,
+      60,
+      110,
+      95,
+      130
+    ],
+    "weight": 24.5,
+    "catch_rate": 45
+  },
+  "flareon": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      130,
+      60,
+      95,
+      110,
+      65
+    ],
+    "weight": 25,
+    "catch_rate": 45
+  },
+  "porygon": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      60,
+      70,
+      85,
+      75,
+      40
+    ],
+    "weight": 36.5,
+    "catch_rate": 45
+  },
+  "omanyte": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      35,
+      40,
+      100,
+      90,
+      55,
+      35
+    ],
+    "weight": 7.5,
+    "catch_rate": 45
+  },
+  "omastar": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      70,
+      60,
+      125,
+      115,
+      70,
+      55
+    ],
+    "weight": 35,
+    "catch_rate": 45
+  },
+  "kabuto": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      30,
+      80,
+      90,
+      55,
+      45,
+      55
+    ],
+    "weight": 11.5,
+    "catch_rate": 45
+  },
+  "kabutops": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      60,
+      115,
+      105,
+      65,
+      70,
+      80
+    ],
+    "weight": 40.5,
+    "catch_rate": 45
+  },
+  "aerodactyl": {
+    "type": [
+      "ROCK",
+      "FLYING"
+    ],
+    "stats": [
+      80,
+      105,
+      65,
+      60,
+      75,
+      130
+    ],
+    "weight": 59,
+    "catch_rate": 45
+  },
+  "snorlax": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      160,
+      110,
+      65,
+      65,
+      110,
+      30
+    ],
+    "weight": 460,
+    "catch_rate": 25
+  },
+  "articuno": {
+    "type": [
+      "ICE",
+      "FLYING"
+    ],
+    "stats": [
+      90,
+      85,
+      100,
+      95,
+      125,
+      85
+    ],
+    "weight": 55.4,
+    "catch_rate": 3
+  },
+  "zapdos": {
+    "type": [
+      "ELECTRIC",
+      "FLYING"
+    ],
+    "stats": [
+      90,
+      90,
+      85,
+      125,
+      90,
+      100
+    ],
+    "weight": 52.6,
+    "catch_rate": 3
+  },
+  "moltres": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      90,
+      100,
+      90,
+      125,
+      85,
+      90
+    ],
+    "weight": 60,
+    "catch_rate": 3
+  },
+  "dratini": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      41,
+      64,
+      45,
+      50,
+      50,
+      50
+    ],
+    "weight": 3.3,
+    "catch_rate": 45
+  },
+  "dragonair": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      61,
+      84,
+      65,
+      70,
+      70,
+      70
+    ],
+    "weight": 16.5,
+    "catch_rate": 45
+  },
+  "dragonite": {
+    "type": [
+      "DRAGON",
+      "FLYING"
+    ],
+    "stats": [
+      91,
+      134,
+      95,
+      100,
+      100,
+      80
+    ],
+    "weight": 210,
+    "catch_rate": 45
+  },
   "mewtwo": {
-      "type": ["PSYCHIC", "NONE"],
-      "stats": [106, 110, 90, 154, 90, 130],
-      "weight": 269,
-      "catch_rate": 3
-    }
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      106,
+      110,
+      90,
+      154,
+      90,
+      130
+    ],
+    "weight": 122,
+    "catch_rate": 3
+  },
+  "mew": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 4,
+    "catch_rate": 45
+  },
+  "chikorita": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      49,
+      65,
+      49,
+      65,
+      45
+    ],
+    "weight": 6.4,
+    "catch_rate": 45
+  },
+  "bayleef": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      62,
+      80,
+      63,
+      80,
+      60
+    ],
+    "weight": 15.8,
+    "catch_rate": 45
+  },
+  "meganium": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      82,
+      100,
+      83,
+      100,
+      80
+    ],
+    "weight": 100.5,
+    "catch_rate": 45
+  },
+  "cyndaquil": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      39,
+      52,
+      43,
+      60,
+      50,
+      65
+    ],
+    "weight": 7.9,
+    "catch_rate": 45
+  },
+  "quilava": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      58,
+      64,
+      58,
+      80,
+      65,
+      80
+    ],
+    "weight": 19,
+    "catch_rate": 45
+  },
+  "typhlosion": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      78,
+      84,
+      78,
+      109,
+      85,
+      100
+    ],
+    "weight": 79.5,
+    "catch_rate": 45
+  },
+  "totodile": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      65,
+      64,
+      44,
+      48,
+      43
+    ],
+    "weight": 9.5,
+    "catch_rate": 45
+  },
+  "croconaw": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      80,
+      80,
+      59,
+      63,
+      58
+    ],
+    "weight": 25,
+    "catch_rate": 45
+  },
+  "feraligatr": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      105,
+      100,
+      79,
+      83,
+      78
+    ],
+    "weight": 88.8,
+    "catch_rate": 45
+  },
+  "sentret": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      46,
+      34,
+      35,
+      45,
+      20
+    ],
+    "weight": 6,
+    "catch_rate": 255
+  },
+  "furret": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      76,
+      64,
+      45,
+      55,
+      90
+    ],
+    "weight": 32.5,
+    "catch_rate": 90
+  },
+  "hoothoot": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      30,
+      30,
+      36,
+      56,
+      50
+    ],
+    "weight": 21.2,
+    "catch_rate": 255
+  },
+  "noctowl": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      100,
+      50,
+      50,
+      86,
+      96,
+      70
+    ],
+    "weight": 40.8,
+    "catch_rate": 90
+  },
+  "ledyba": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      20,
+      30,
+      40,
+      80,
+      55
+    ],
+    "weight": 10.8,
+    "catch_rate": 255
+  },
+  "ledian": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      35,
+      50,
+      55,
+      110,
+      85
+    ],
+    "weight": 35.6,
+    "catch_rate": 90
+  },
+  "spinarak": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      40,
+      60,
+      40,
+      40,
+      40,
+      30
+    ],
+    "weight": 8.5,
+    "catch_rate": 255
+  },
+  "ariados": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      70,
+      90,
+      70,
+      60,
+      70,
+      40
+    ],
+    "weight": 33.5,
+    "catch_rate": 90
+  },
+  "crobat": {
+    "type": [
+      "POISON",
+      "FLYING"
+    ],
+    "stats": [
+      85,
+      90,
+      80,
+      70,
+      80,
+      130
+    ],
+    "weight": 75,
+    "catch_rate": 90
+  },
+  "chinchou": {
+    "type": [
+      "WATER",
+      "ELECTRIC"
+    ],
+    "stats": [
+      75,
+      38,
+      38,
+      56,
+      56,
+      67
+    ],
+    "weight": 12,
+    "catch_rate": 190
+  },
+  "lanturn": {
+    "type": [
+      "WATER",
+      "ELECTRIC"
+    ],
+    "stats": [
+      125,
+      58,
+      58,
+      76,
+      76,
+      67
+    ],
+    "weight": 22.5,
+    "catch_rate": 75
+  },
+  "pichu": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      20,
+      40,
+      15,
+      35,
+      35,
+      60
+    ],
+    "weight": 2,
+    "catch_rate": 190
+  },
+  "cleffa": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      25,
+      28,
+      45,
+      55,
+      15
+    ],
+    "weight": 3,
+    "catch_rate": 150
+  },
+  "igglybuff": {
+    "type": [
+      "NORMAL",
+      "FAIRY"
+    ],
+    "stats": [
+      90,
+      30,
+      15,
+      40,
+      20,
+      15
+    ],
+    "weight": 1,
+    "catch_rate": 170
+  },
+  "togepi": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      20,
+      65,
+      40,
+      65,
+      20
+    ],
+    "weight": 1.5,
+    "catch_rate": 190
+  },
+  "togetic": {
+    "type": [
+      "FAIRY",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      40,
+      85,
+      80,
+      105,
+      40
+    ],
+    "weight": 3.2,
+    "catch_rate": 75
+  },
+  "natu": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      50,
+      45,
+      70,
+      45,
+      70
+    ],
+    "weight": 2,
+    "catch_rate": 190
+  },
+  "xatu": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      75,
+      70,
+      95,
+      70,
+      95
+    ],
+    "weight": 15,
+    "catch_rate": 75
+  },
+  "mareep": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      40,
+      40,
+      65,
+      45,
+      35
+    ],
+    "weight": 7.8,
+    "catch_rate": 235
+  },
+  "flaaffy": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      55,
+      55,
+      80,
+      60,
+      45
+    ],
+    "weight": 13.3,
+    "catch_rate": 120
+  },
+  "ampharos": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      75,
+      85,
+      115,
+      90,
+      55
+    ],
+    "weight": 61.5,
+    "catch_rate": 45
+  },
+  "bellossom": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      80,
+      95,
+      90,
+      100,
+      50
+    ],
+    "weight": 5.8,
+    "catch_rate": 45
+  },
+  "marill": {
+    "type": [
+      "WATER",
+      "FAIRY"
+    ],
+    "stats": [
+      70,
+      20,
+      50,
+      20,
+      50,
+      40
+    ],
+    "weight": 8.5,
+    "catch_rate": 190
+  },
+  "azumarill": {
+    "type": [
+      "WATER",
+      "FAIRY"
+    ],
+    "stats": [
+      100,
+      50,
+      80,
+      60,
+      80,
+      50
+    ],
+    "weight": 28.5,
+    "catch_rate": 75
+  },
+  "sudowoodo": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      100,
+      115,
+      30,
+      65,
+      30
+    ],
+    "weight": 38,
+    "catch_rate": 65
+  },
+  "politoed": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      75,
+      75,
+      90,
+      100,
+      70
+    ],
+    "weight": 33.9,
+    "catch_rate": 45
+  },
+  "hoppip": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      35,
+      35,
+      40,
+      35,
+      55,
+      50
+    ],
+    "weight": 0.5,
+    "catch_rate": 255
+  },
+  "skiploom": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      45,
+      50,
+      45,
+      65,
+      80
+    ],
+    "weight": 1,
+    "catch_rate": 120
+  },
+  "jumpluff": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      55,
+      70,
+      55,
+      95,
+      110
+    ],
+    "weight": 3,
+    "catch_rate": 45
+  },
+  "aipom": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      70,
+      55,
+      40,
+      55,
+      85
+    ],
+    "weight": 11.5,
+    "catch_rate": 45
+  },
+  "sunkern": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "weight": 1.8,
+    "catch_rate": 235
+  },
+  "sunflora": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      75,
+      55,
+      105,
+      85,
+      30
+    ],
+    "weight": 8.5,
+    "catch_rate": 120
+  },
+  "yanma": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      65,
+      45,
+      75,
+      45,
+      95
+    ],
+    "weight": 38,
+    "catch_rate": 75
+  },
+  "wooper": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      55,
+      45,
+      45,
+      25,
+      25,
+      15
+    ],
+    "weight": 8.5,
+    "catch_rate": 255
+  },
+  "quagsire": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      95,
+      85,
+      85,
+      65,
+      65,
+      35
+    ],
+    "weight": 75,
+    "catch_rate": 90
+  },
+  "espeon": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      65,
+      60,
+      130,
+      95,
+      110
+    ],
+    "weight": 26.5,
+    "catch_rate": 45
+  },
+  "umbreon": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      65,
+      110,
+      60,
+      130,
+      65
+    ],
+    "weight": 27,
+    "catch_rate": 45
+  },
+  "murkrow": {
+    "type": [
+      "DARK",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      85,
+      42,
+      85,
+      42,
+      91
+    ],
+    "weight": 2.1,
+    "catch_rate": 30
+  },
+  "slowking": {
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "stats": [
+      95,
+      75,
+      80,
+      100,
+      110,
+      30
+    ],
+    "weight": 79.5,
+    "catch_rate": 70
+  },
+  "misdreavus": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      60,
+      60,
+      85,
+      85,
+      85
+    ],
+    "weight": 1,
+    "catch_rate": 45
+  },
+  "unown": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      48,
+      72,
+      48,
+      72,
+      48,
+      48
+    ],
+    "weight": 5,
+    "catch_rate": 225
+  },
+  "wobbuffet": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      190,
+      33,
+      58,
+      33,
+      58,
+      33
+    ],
+    "weight": 28.5,
+    "catch_rate": 45
+  },
+  "girafarig": {
+    "type": [
+      "NORMAL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      70,
+      80,
+      65,
+      90,
+      65,
+      85
+    ],
+    "weight": 41.5,
+    "catch_rate": 60
+  },
+  "pineco": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      65,
+      90,
+      35,
+      35,
+      15
+    ],
+    "weight": 7.2,
+    "catch_rate": 190
+  },
+  "forretress": {
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "stats": [
+      75,
+      90,
+      140,
+      60,
+      60,
+      40
+    ],
+    "weight": 125.8,
+    "catch_rate": 75
+  },
+  "dunsparce": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      70,
+      70,
+      65,
+      65,
+      45
+    ],
+    "weight": 14,
+    "catch_rate": 190
+  },
+  "gligar": {
+    "type": [
+      "GROUND",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      75,
+      105,
+      35,
+      65,
+      85
+    ],
+    "weight": 64.8,
+    "catch_rate": 60
+  },
+  "steelix": {
+    "type": [
+      "STEEL",
+      "GROUND"
+    ],
+    "stats": [
+      75,
+      85,
+      200,
+      55,
+      65,
+      30
+    ],
+    "weight": 400,
+    "catch_rate": 25
+  },
+  "snubbull": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      80,
+      50,
+      40,
+      40,
+      30
+    ],
+    "weight": 7.8,
+    "catch_rate": 190
+  },
+  "granbull": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      120,
+      75,
+      60,
+      60,
+      45
+    ],
+    "weight": 48.7,
+    "catch_rate": 75
+  },
+  "qwilfish": {
+    "type": [
+      "WATER",
+      "POISON"
+    ],
+    "stats": [
+      65,
+      95,
+      85,
+      55,
+      55,
+      85
+    ],
+    "weight": 3.9,
+    "catch_rate": 45
+  },
+  "scizor": {
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "stats": [
+      70,
+      130,
+      100,
+      55,
+      80,
+      65
+    ],
+    "weight": 118,
+    "catch_rate": 25
+  },
+  "shuckle": {
+    "type": [
+      "BUG",
+      "ROCK"
+    ],
+    "stats": [
+      20,
+      10,
+      230,
+      10,
+      230,
+      5
+    ],
+    "weight": 20.5,
+    "catch_rate": 190
+  },
+  "heracross": {
+    "type": [
+      "BUG",
+      "FIGHTING"
+    ],
+    "stats": [
+      80,
+      125,
+      75,
+      40,
+      95,
+      85
+    ],
+    "weight": 54,
+    "catch_rate": 45
+  },
+  "sneasel": {
+    "type": [
+      "DARK",
+      "ICE"
+    ],
+    "stats": [
+      55,
+      95,
+      55,
+      35,
+      75,
+      115
+    ],
+    "weight": 28,
+    "catch_rate": 60
+  },
+  "teddiursa": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      80,
+      50,
+      50,
+      50,
+      40
+    ],
+    "weight": 8.8,
+    "catch_rate": 120
+  },
+  "ursaring": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      130,
+      75,
+      75,
+      75,
+      55
+    ],
+    "weight": 125.8,
+    "catch_rate": 60
+  },
+  "slugma": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      40,
+      40,
+      70,
+      40,
+      20
+    ],
+    "weight": 35,
+    "catch_rate": 190
+  },
+  "magcargo": {
+    "type": [
+      "FIRE",
+      "ROCK"
+    ],
+    "stats": [
+      60,
+      50,
+      120,
+      90,
+      80,
+      30
+    ],
+    "weight": 55,
+    "catch_rate": 75
+  },
+  "swinub": {
+    "type": [
+      "ICE",
+      "GROUND"
+    ],
+    "stats": [
+      50,
+      50,
+      40,
+      30,
+      30,
+      50
+    ],
+    "weight": 6.5,
+    "catch_rate": 225
+  },
+  "piloswine": {
+    "type": [
+      "ICE",
+      "GROUND"
+    ],
+    "stats": [
+      100,
+      100,
+      80,
+      60,
+      60,
+      50
+    ],
+    "weight": 55.8,
+    "catch_rate": 75
+  },
+  "corsola": {
+    "type": [
+      "WATER",
+      "ROCK"
+    ],
+    "stats": [
+      65,
+      55,
+      95,
+      65,
+      95,
+      35
+    ],
+    "weight": 5,
+    "catch_rate": 60
+  },
+  "remoraid": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      65,
+      35,
+      65,
+      35,
+      65
+    ],
+    "weight": 12,
+    "catch_rate": 190
+  },
+  "octillery": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      105,
+      75,
+      105,
+      75,
+      45
+    ],
+    "weight": 28.5,
+    "catch_rate": 75
+  },
+  "delibird": {
+    "type": [
+      "ICE",
+      "FLYING"
+    ],
+    "stats": [
+      45,
+      55,
+      45,
+      65,
+      45,
+      75
+    ],
+    "weight": 16,
+    "catch_rate": 45
+  },
+  "mantine": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      85,
+      40,
+      70,
+      80,
+      140,
+      70
+    ],
+    "weight": 220,
+    "catch_rate": 25
+  },
+  "skarmory": {
+    "type": [
+      "STEEL",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      80,
+      140,
+      40,
+      70,
+      70
+    ],
+    "weight": 50.5,
+    "catch_rate": 25
+  },
+  "houndour": {
+    "type": [
+      "DARK",
+      "FIRE"
+    ],
+    "stats": [
+      45,
+      60,
+      30,
+      80,
+      50,
+      65
+    ],
+    "weight": 10.8,
+    "catch_rate": 120
+  },
+  "houndoom": {
+    "type": [
+      "DARK",
+      "FIRE"
+    ],
+    "stats": [
+      75,
+      90,
+      50,
+      110,
+      80,
+      95
+    ],
+    "weight": 35,
+    "catch_rate": 45
+  },
+  "kingdra": {
+    "type": [
+      "WATER",
+      "DRAGON"
+    ],
+    "stats": [
+      75,
+      95,
+      95,
+      95,
+      95,
+      85
+    ],
+    "weight": 152,
+    "catch_rate": 45
+  },
+  "phanpy": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      60,
+      60,
+      40,
+      40,
+      40
+    ],
+    "weight": 33.5,
+    "catch_rate": 120
+  },
+  "donphan": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      120,
+      120,
+      60,
+      60,
+      50
+    ],
+    "weight": 120,
+    "catch_rate": 60
+  },
+  "porygon2": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      80,
+      90,
+      105,
+      95,
+      60
+    ],
+    "weight": 32.5,
+    "catch_rate": 45
+  },
+  "stantler": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      73,
+      95,
+      62,
+      85,
+      65,
+      85
+    ],
+    "weight": 71.2,
+    "catch_rate": 45
+  },
+  "smeargle": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      20,
+      35,
+      20,
+      45,
+      75
+    ],
+    "weight": 58,
+    "catch_rate": 45
+  },
+  "tyrogue": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      35
+    ],
+    "weight": 21,
+    "catch_rate": 75
+  },
+  "hitmontop": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      95,
+      95,
+      35,
+      110,
+      70
+    ],
+    "weight": 48,
+    "catch_rate": 45
+  },
+  "smoochum": {
+    "type": [
+      "ICE",
+      "PSYCHIC"
+    ],
+    "stats": [
+      45,
+      30,
+      15,
+      85,
+      65,
+      65
+    ],
+    "weight": 6,
+    "catch_rate": 45
+  },
+  "elekid": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      63,
+      37,
+      65,
+      55,
+      95
+    ],
+    "weight": 23.5,
+    "catch_rate": 45
+  },
+  "magby": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      75,
+      37,
+      70,
+      55,
+      83
+    ],
+    "weight": 21.4,
+    "catch_rate": 45
+  },
+  "miltank": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      80,
+      105,
+      40,
+      70,
+      100
+    ],
+    "weight": 75.5,
+    "catch_rate": 45
+  },
+  "blissey": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      255,
+      10,
+      10,
+      75,
+      135,
+      55
+    ],
+    "weight": 46.8,
+    "catch_rate": 30
+  },
+  "raikou": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      85,
+      75,
+      115,
+      100,
+      115
+    ],
+    "weight": 178,
+    "catch_rate": 3
+  },
+  "entei": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      115,
+      115,
+      85,
+      90,
+      75,
+      100
+    ],
+    "weight": 198,
+    "catch_rate": 3
+  },
+  "suicune": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      75,
+      115,
+      90,
+      115,
+      85
+    ],
+    "weight": 187,
+    "catch_rate": 3
+  },
+  "larvitar": {
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      50,
+      64,
+      50,
+      45,
+      50,
+      41
+    ],
+    "weight": 72,
+    "catch_rate": 45
+  },
+  "pupitar": {
+    "type": [
+      "ROCK",
+      "GROUND"
+    ],
+    "stats": [
+      70,
+      84,
+      70,
+      65,
+      70,
+      51
+    ],
+    "weight": 152,
+    "catch_rate": 45
+  },
+  "tyranitar": {
+    "type": [
+      "ROCK",
+      "DARK"
+    ],
+    "stats": [
+      100,
+      134,
+      110,
+      95,
+      100,
+      61
+    ],
+    "weight": 202,
+    "catch_rate": 45
+  },
+  "lugia": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      106,
+      90,
+      130,
+      90,
+      154,
+      110
+    ],
+    "weight": 216,
+    "catch_rate": 3
+  },
+  "ho-oh": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      106,
+      130,
+      90,
+      110,
+      154,
+      90
+    ],
+    "weight": 199,
+    "catch_rate": 3
+  },
+  "celebi": {
+    "type": [
+      "PSYCHIC",
+      "GRASS"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 5,
+    "catch_rate": 45
+  },
+  "treecko": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      45,
+      35,
+      65,
+      55,
+      70
+    ],
+    "weight": 5,
+    "catch_rate": 45
+  },
+  "grovyle": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      65,
+      45,
+      85,
+      65,
+      95
+    ],
+    "weight": 21.6,
+    "catch_rate": 45
+  },
+  "sceptile": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      85,
+      65,
+      105,
+      85,
+      120
+    ],
+    "weight": 52.2,
+    "catch_rate": 45
+  },
+  "torchic": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      60,
+      40,
+      70,
+      50,
+      45
+    ],
+    "weight": 2.5,
+    "catch_rate": 45
+  },
+  "combusken": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      60,
+      85,
+      60,
+      85,
+      60,
+      55
+    ],
+    "weight": 19.5,
+    "catch_rate": 45
+  },
+  "blaziken": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      80,
+      120,
+      70,
+      110,
+      70,
+      80
+    ],
+    "weight": 52,
+    "catch_rate": 45
+  },
+  "mudkip": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      70,
+      50,
+      50,
+      50,
+      40
+    ],
+    "weight": 7.6,
+    "catch_rate": 45
+  },
+  "marshtomp": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      70,
+      85,
+      70,
+      60,
+      70,
+      50
+    ],
+    "weight": 28,
+    "catch_rate": 45
+  },
+  "swampert": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      100,
+      110,
+      90,
+      85,
+      90,
+      60
+    ],
+    "weight": 81.9,
+    "catch_rate": 45
+  },
+  "poochyena": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      55,
+      35,
+      30,
+      30,
+      35
+    ],
+    "weight": 13.6,
+    "catch_rate": 255
+  },
+  "mightyena": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      90,
+      70,
+      60,
+      60,
+      70
+    ],
+    "weight": 37,
+    "catch_rate": 127
+  },
+  "zigzagoon": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      38,
+      30,
+      41,
+      30,
+      41,
+      60
+    ],
+    "weight": 17.5,
+    "catch_rate": 255
+  },
+  "linoone": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      78,
+      70,
+      61,
+      50,
+      61,
+      100
+    ],
+    "weight": 32.5,
+    "catch_rate": 90
+  },
+  "wurmple": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      45,
+      35,
+      20,
+      30,
+      20
+    ],
+    "weight": 3.6,
+    "catch_rate": 255
+  },
+  "silcoon": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      35,
+      55,
+      25,
+      25,
+      15
+    ],
+    "weight": 10,
+    "catch_rate": 120
+  },
+  "beautifly": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      70,
+      50,
+      100,
+      50,
+      65
+    ],
+    "weight": 28.4,
+    "catch_rate": 45
+  },
+  "cascoon": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      35,
+      55,
+      25,
+      25,
+      15
+    ],
+    "weight": 11.5,
+    "catch_rate": 120
+  },
+  "dustox": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      50,
+      70,
+      50,
+      90,
+      65
+    ],
+    "weight": 31.6,
+    "catch_rate": 45
+  },
+  "lotad": {
+    "type": [
+      "WATER",
+      "GRASS"
+    ],
+    "stats": [
+      40,
+      30,
+      30,
+      40,
+      50,
+      30
+    ],
+    "weight": 2.6,
+    "catch_rate": 255
+  },
+  "lombre": {
+    "type": [
+      "WATER",
+      "GRASS"
+    ],
+    "stats": [
+      60,
+      50,
+      50,
+      60,
+      70,
+      50
+    ],
+    "weight": 32.5,
+    "catch_rate": 120
+  },
+  "ludicolo": {
+    "type": [
+      "WATER",
+      "GRASS"
+    ],
+    "stats": [
+      80,
+      70,
+      70,
+      90,
+      100,
+      70
+    ],
+    "weight": 55,
+    "catch_rate": 45
+  },
+  "seedot": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      40,
+      50,
+      30,
+      30,
+      30
+    ],
+    "weight": 4,
+    "catch_rate": 255
+  },
+  "nuzleaf": {
+    "type": [
+      "GRASS",
+      "DARK"
+    ],
+    "stats": [
+      70,
+      70,
+      40,
+      60,
+      40,
+      60
+    ],
+    "weight": 28,
+    "catch_rate": 120
+  },
+  "shiftry": {
+    "type": [
+      "GRASS",
+      "DARK"
+    ],
+    "stats": [
+      90,
+      100,
+      60,
+      90,
+      60,
+      80
+    ],
+    "weight": 59.6,
+    "catch_rate": 45
+  },
+  "taillow": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      55,
+      30,
+      30,
+      30,
+      85
+    ],
+    "weight": 2.3,
+    "catch_rate": 200
+  },
+  "swellow": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      85,
+      60,
+      75,
+      50,
+      125
+    ],
+    "weight": 19.8,
+    "catch_rate": 45
+  },
+  "wingull": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      30,
+      30,
+      55,
+      30,
+      85
+    ],
+    "weight": 9.5,
+    "catch_rate": 190
+  },
+  "pelipper": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      50,
+      100,
+      95,
+      70,
+      65
+    ],
+    "weight": 28,
+    "catch_rate": 45
+  },
+  "ralts": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      28,
+      25,
+      25,
+      45,
+      35,
+      40
+    ],
+    "weight": 6.6,
+    "catch_rate": 235
+  },
+  "kirlia": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      38,
+      35,
+      35,
+      65,
+      55,
+      50
+    ],
+    "weight": 20.2,
+    "catch_rate": 120
+  },
+  "gardevoir": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      68,
+      65,
+      65,
+      125,
+      115,
+      80
+    ],
+    "weight": 48.4,
+    "catch_rate": 45
+  },
+  "surskit": {
+    "type": [
+      "BUG",
+      "WATER"
+    ],
+    "stats": [
+      40,
+      30,
+      32,
+      50,
+      52,
+      65
+    ],
+    "weight": 1.7,
+    "catch_rate": 200
+  },
+  "masquerain": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      60,
+      62,
+      100,
+      82,
+      80
+    ],
+    "weight": 3.6,
+    "catch_rate": 75
+  },
+  "shroomish": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      40,
+      60,
+      40,
+      60,
+      35
+    ],
+    "weight": 4.5,
+    "catch_rate": 255
+  },
+  "breloom": {
+    "type": [
+      "GRASS",
+      "FIGHTING"
+    ],
+    "stats": [
+      60,
+      130,
+      80,
+      60,
+      60,
+      70
+    ],
+    "weight": 39.2,
+    "catch_rate": 90
+  },
+  "slakoth": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      60,
+      60,
+      35,
+      35,
+      30
+    ],
+    "weight": 24,
+    "catch_rate": 255
+  },
+  "vigoroth": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      80,
+      80,
+      55,
+      55,
+      90
+    ],
+    "weight": 46.5,
+    "catch_rate": 120
+  },
+  "slaking": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      150,
+      160,
+      100,
+      95,
+      65,
+      100
+    ],
+    "weight": 130.5,
+    "catch_rate": 45
+  },
+  "nincada": {
+    "type": [
+      "BUG",
+      "GROUND"
+    ],
+    "stats": [
+      31,
+      45,
+      90,
+      30,
+      30,
+      40
+    ],
+    "weight": 5.5,
+    "catch_rate": 255
+  },
+  "ninjask": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      61,
+      90,
+      45,
+      50,
+      50,
+      160
+    ],
+    "weight": 12,
+    "catch_rate": 120
+  },
+  "shedinja": {
+    "type": [
+      "BUG",
+      "GHOST"
+    ],
+    "stats": [
+      1,
+      90,
+      45,
+      30,
+      30,
+      40
+    ],
+    "weight": 1.2,
+    "catch_rate": 45
+  },
+  "whismur": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      64,
+      51,
+      23,
+      51,
+      23,
+      28
+    ],
+    "weight": 16.3,
+    "catch_rate": 190
+  },
+  "loudred": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      84,
+      71,
+      43,
+      71,
+      43,
+      48
+    ],
+    "weight": 40.5,
+    "catch_rate": 120
+  },
+  "exploud": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      104,
+      91,
+      63,
+      91,
+      73,
+      68
+    ],
+    "weight": 84,
+    "catch_rate": 45
+  },
+  "makuhita": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      72,
+      60,
+      30,
+      20,
+      30,
+      25
+    ],
+    "weight": 86.4,
+    "catch_rate": 180
+  },
+  "hariyama": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      144,
+      120,
+      60,
+      40,
+      60,
+      50
+    ],
+    "weight": 253.8,
+    "catch_rate": 200
+  },
+  "azurill": {
+    "type": [
+      "NORMAL",
+      "FAIRY"
+    ],
+    "stats": [
+      50,
+      20,
+      40,
+      20,
+      40,
+      20
+    ],
+    "weight": 2,
+    "catch_rate": 150
+  },
+  "nosepass": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      30,
+      45,
+      135,
+      45,
+      90,
+      30
+    ],
+    "weight": 97,
+    "catch_rate": 255
+  },
+  "skitty": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      45,
+      45,
+      35,
+      35,
+      50
+    ],
+    "weight": 11,
+    "catch_rate": 255
+  },
+  "delcatty": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      65,
+      65,
+      55,
+      55,
+      90
+    ],
+    "weight": 32.6,
+    "catch_rate": 60
+  },
+  "sableye": {
+    "type": [
+      "DARK",
+      "GHOST"
+    ],
+    "stats": [
+      50,
+      75,
+      75,
+      65,
+      65,
+      50
+    ],
+    "weight": 11,
+    "catch_rate": 45
+  },
+  "mawile": {
+    "type": [
+      "STEEL",
+      "FAIRY"
+    ],
+    "stats": [
+      50,
+      85,
+      85,
+      55,
+      55,
+      50
+    ],
+    "weight": 11.5,
+    "catch_rate": 45
+  },
+  "aron": {
+    "type": [
+      "STEEL",
+      "ROCK"
+    ],
+    "stats": [
+      50,
+      70,
+      100,
+      40,
+      40,
+      30
+    ],
+    "weight": 60,
+    "catch_rate": 180
+  },
+  "lairon": {
+    "type": [
+      "STEEL",
+      "ROCK"
+    ],
+    "stats": [
+      60,
+      90,
+      140,
+      50,
+      50,
+      40
+    ],
+    "weight": 120,
+    "catch_rate": 90
+  },
+  "aggron": {
+    "type": [
+      "STEEL",
+      "ROCK"
+    ],
+    "stats": [
+      70,
+      110,
+      180,
+      60,
+      60,
+      50
+    ],
+    "weight": 360,
+    "catch_rate": 45
+  },
+  "meditite": {
+    "type": [
+      "FIGHTING",
+      "PSYCHIC"
+    ],
+    "stats": [
+      30,
+      40,
+      55,
+      40,
+      55,
+      60
+    ],
+    "weight": 11.2,
+    "catch_rate": 180
+  },
+  "medicham": {
+    "type": [
+      "FIGHTING",
+      "PSYCHIC"
+    ],
+    "stats": [
+      60,
+      60,
+      75,
+      60,
+      75,
+      80
+    ],
+    "weight": 31.5,
+    "catch_rate": 90
+  },
+  "electrike": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      45,
+      40,
+      65,
+      40,
+      65
+    ],
+    "weight": 15.2,
+    "catch_rate": 120
+  },
+  "manectric": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      75,
+      60,
+      105,
+      60,
+      105
+    ],
+    "weight": 40.2,
+    "catch_rate": 45
+  },
+  "plusle": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      50,
+      40,
+      85,
+      75,
+      95
+    ],
+    "weight": 4.2,
+    "catch_rate": 200
+  },
+  "minun": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      40,
+      50,
+      75,
+      85,
+      95
+    ],
+    "weight": 4.2,
+    "catch_rate": 200
+  },
+  "volbeat": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      73,
+      75,
+      47,
+      85,
+      85
+    ],
+    "weight": 17.7,
+    "catch_rate": 150
+  },
+  "illumise": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      47,
+      75,
+      73,
+      85,
+      85
+    ],
+    "weight": 17.7,
+    "catch_rate": 150
+  },
+  "roselia": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      50,
+      60,
+      45,
+      100,
+      80,
+      65
+    ],
+    "weight": 2,
+    "catch_rate": 150
+  },
+  "gulpin": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      43,
+      53,
+      43,
+      53,
+      40
+    ],
+    "weight": 10.3,
+    "catch_rate": 225
+  },
+  "swalot": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      73,
+      83,
+      73,
+      83,
+      55
+    ],
+    "weight": 80,
+    "catch_rate": 75
+  },
+  "carvanha": {
+    "type": [
+      "WATER",
+      "DARK"
+    ],
+    "stats": [
+      45,
+      90,
+      20,
+      65,
+      20,
+      65
+    ],
+    "weight": 20.8,
+    "catch_rate": 225
+  },
+  "sharpedo": {
+    "type": [
+      "WATER",
+      "DARK"
+    ],
+    "stats": [
+      70,
+      120,
+      40,
+      95,
+      40,
+      95
+    ],
+    "weight": 88.8,
+    "catch_rate": 60
+  },
+  "wailmer": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      130,
+      70,
+      35,
+      70,
+      35,
+      60
+    ],
+    "weight": 130,
+    "catch_rate": 125
+  },
+  "wailord": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      170,
+      90,
+      45,
+      90,
+      45,
+      60
+    ],
+    "weight": 398,
+    "catch_rate": 60
+  },
+  "numel": {
+    "type": [
+      "FIRE",
+      "GROUND"
+    ],
+    "stats": [
+      60,
+      60,
+      40,
+      65,
+      45,
+      35
+    ],
+    "weight": 24,
+    "catch_rate": 255
+  },
+  "camerupt": {
+    "type": [
+      "FIRE",
+      "GROUND"
+    ],
+    "stats": [
+      70,
+      100,
+      70,
+      105,
+      75,
+      40
+    ],
+    "weight": 220,
+    "catch_rate": 150
+  },
+  "torkoal": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      85,
+      140,
+      85,
+      70,
+      20
+    ],
+    "weight": 80.4,
+    "catch_rate": 90
+  },
+  "spoink": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      25,
+      35,
+      70,
+      80,
+      60
+    ],
+    "weight": 30.6,
+    "catch_rate": 255
+  },
+  "grumpig": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      45,
+      65,
+      90,
+      110,
+      80
+    ],
+    "weight": 71.5,
+    "catch_rate": 60
+  },
+  "spinda": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "weight": 5,
+    "catch_rate": 255
+  },
+  "trapinch": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      100,
+      45,
+      45,
+      45,
+      10
+    ],
+    "weight": 15,
+    "catch_rate": 255
+  },
+  "vibrava": {
+    "type": [
+      "GROUND",
+      "DRAGON"
+    ],
+    "stats": [
+      50,
+      70,
+      50,
+      50,
+      50,
+      70
+    ],
+    "weight": 15.3,
+    "catch_rate": 120
+  },
+  "flygon": {
+    "type": [
+      "GROUND",
+      "DRAGON"
+    ],
+    "stats": [
+      80,
+      100,
+      80,
+      80,
+      80,
+      100
+    ],
+    "weight": 82,
+    "catch_rate": 45
+  },
+  "cacnea": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      85,
+      40,
+      85,
+      40,
+      35
+    ],
+    "weight": 51.3,
+    "catch_rate": 190
+  },
+  "cacturne": {
+    "type": [
+      "GRASS",
+      "DARK"
+    ],
+    "stats": [
+      70,
+      115,
+      60,
+      115,
+      60,
+      55
+    ],
+    "weight": 77.4,
+    "catch_rate": 60
+  },
+  "swablu": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      45,
+      40,
+      60,
+      40,
+      75,
+      50
+    ],
+    "weight": 1.2,
+    "catch_rate": 255
+  },
+  "altaria": {
+    "type": [
+      "DRAGON",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      70,
+      90,
+      70,
+      105,
+      80
+    ],
+    "weight": 20.6,
+    "catch_rate": 45
+  },
+  "zangoose": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      73,
+      115,
+      60,
+      60,
+      60,
+      90
+    ],
+    "weight": 40.3,
+    "catch_rate": 90
+  },
+  "seviper": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      73,
+      100,
+      60,
+      100,
+      60,
+      65
+    ],
+    "weight": 52.5,
+    "catch_rate": 90
+  },
+  "lunatone": {
+    "type": [
+      "ROCK",
+      "PSYCHIC"
+    ],
+    "stats": [
+      90,
+      55,
+      65,
+      95,
+      85,
+      70
+    ],
+    "weight": 168,
+    "catch_rate": 45
+  },
+  "solrock": {
+    "type": [
+      "ROCK",
+      "PSYCHIC"
+    ],
+    "stats": [
+      90,
+      95,
+      85,
+      55,
+      65,
+      70
+    ],
+    "weight": 154,
+    "catch_rate": 45
+  },
+  "barboach": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      50,
+      48,
+      43,
+      46,
+      41,
+      60
+    ],
+    "weight": 1.9,
+    "catch_rate": 190
+  },
+  "whiscash": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      110,
+      78,
+      73,
+      76,
+      71,
+      60
+    ],
+    "weight": 23.6,
+    "catch_rate": 75
+  },
+  "corphish": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      43,
+      80,
+      65,
+      50,
+      35,
+      35
+    ],
+    "weight": 11.5,
+    "catch_rate": 205
+  },
+  "crawdaunt": {
+    "type": [
+      "WATER",
+      "DARK"
+    ],
+    "stats": [
+      63,
+      120,
+      85,
+      90,
+      55,
+      55
+    ],
+    "weight": 32.8,
+    "catch_rate": 155
+  },
+  "baltoy": {
+    "type": [
+      "GROUND",
+      "PSYCHIC"
+    ],
+    "stats": [
+      40,
+      40,
+      55,
+      40,
+      70,
+      55
+    ],
+    "weight": 21.5,
+    "catch_rate": 255
+  },
+  "claydol": {
+    "type": [
+      "GROUND",
+      "PSYCHIC"
+    ],
+    "stats": [
+      60,
+      70,
+      105,
+      70,
+      120,
+      75
+    ],
+    "weight": 108,
+    "catch_rate": 90
+  },
+  "lileep": {
+    "type": [
+      "ROCK",
+      "GRASS"
+    ],
+    "stats": [
+      66,
+      41,
+      77,
+      61,
+      87,
+      23
+    ],
+    "weight": 23.8,
+    "catch_rate": 45
+  },
+  "cradily": {
+    "type": [
+      "ROCK",
+      "GRASS"
+    ],
+    "stats": [
+      86,
+      81,
+      97,
+      81,
+      107,
+      43
+    ],
+    "weight": 60.4,
+    "catch_rate": 45
+  },
+  "anorith": {
+    "type": [
+      "ROCK",
+      "BUG"
+    ],
+    "stats": [
+      45,
+      95,
+      50,
+      40,
+      50,
+      75
+    ],
+    "weight": 12.5,
+    "catch_rate": 45
+  },
+  "armaldo": {
+    "type": [
+      "ROCK",
+      "BUG"
+    ],
+    "stats": [
+      75,
+      125,
+      100,
+      70,
+      80,
+      45
+    ],
+    "weight": 68.2,
+    "catch_rate": 45
+  },
+  "feebas": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      20,
+      15,
+      20,
+      10,
+      55,
+      80
+    ],
+    "weight": 7.4,
+    "catch_rate": 255
+  },
+  "milotic": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      60,
+      79,
+      100,
+      125,
+      81
+    ],
+    "weight": 162,
+    "catch_rate": 60
+  },
+  "castform": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "weight": 0.8,
+    "catch_rate": 45
+  },
+  "kecleon": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      90,
+      70,
+      60,
+      120,
+      40
+    ],
+    "weight": 22,
+    "catch_rate": 200
+  },
+  "shuppet": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      44,
+      75,
+      35,
+      63,
+      33,
+      45
+    ],
+    "weight": 2.3,
+    "catch_rate": 225
+  },
+  "banette": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      64,
+      115,
+      65,
+      83,
+      63,
+      65
+    ],
+    "weight": 12.5,
+    "catch_rate": 45
+  },
+  "duskull": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      20,
+      40,
+      90,
+      30,
+      90,
+      25
+    ],
+    "weight": 15,
+    "catch_rate": 190
+  },
+  "dusclops": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      70,
+      130,
+      60,
+      130,
+      25
+    ],
+    "weight": 30.6,
+    "catch_rate": 90
+  },
+  "tropius": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      99,
+      68,
+      83,
+      72,
+      87,
+      51
+    ],
+    "weight": 100,
+    "catch_rate": 200
+  },
+  "chimecho": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      50,
+      80,
+      95,
+      90,
+      65
+    ],
+    "weight": 1,
+    "catch_rate": 45
+  },
+  "absol": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      130,
+      60,
+      75,
+      60,
+      75
+    ],
+    "weight": 47,
+    "catch_rate": 30
+  },
+  "wynaut": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      23,
+      48,
+      23,
+      48,
+      23
+    ],
+    "weight": 14,
+    "catch_rate": 125
+  },
+  "snorunt": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "weight": 16.8,
+    "catch_rate": 190
+  },
+  "glalie": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "weight": 256.5,
+    "catch_rate": 75
+  },
+  "spheal": {
+    "type": [
+      "ICE",
+      "WATER"
+    ],
+    "stats": [
+      70,
+      40,
+      50,
+      55,
+      50,
+      25
+    ],
+    "weight": 39.5,
+    "catch_rate": 255
+  },
+  "sealeo": {
+    "type": [
+      "ICE",
+      "WATER"
+    ],
+    "stats": [
+      90,
+      60,
+      70,
+      75,
+      70,
+      45
+    ],
+    "weight": 87.6,
+    "catch_rate": 120
+  },
+  "walrein": {
+    "type": [
+      "ICE",
+      "WATER"
+    ],
+    "stats": [
+      110,
+      80,
+      90,
+      95,
+      90,
+      65
+    ],
+    "weight": 150.6,
+    "catch_rate": 45
+  },
+  "clamperl": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      64,
+      85,
+      74,
+      55,
+      32
+    ],
+    "weight": 52.5,
+    "catch_rate": 255
+  },
+  "huntail": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      104,
+      105,
+      94,
+      75,
+      52
+    ],
+    "weight": 27,
+    "catch_rate": 60
+  },
+  "gorebyss": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      84,
+      105,
+      114,
+      75,
+      52
+    ],
+    "weight": 22.6,
+    "catch_rate": 60
+  },
+  "relicanth": {
+    "type": [
+      "WATER",
+      "ROCK"
+    ],
+    "stats": [
+      100,
+      90,
+      130,
+      45,
+      65,
+      55
+    ],
+    "weight": 23.4,
+    "catch_rate": 25
+  },
+  "luvdisc": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      43,
+      30,
+      55,
+      40,
+      65,
+      97
+    ],
+    "weight": 8.7,
+    "catch_rate": 225
+  },
+  "bagon": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      75,
+      60,
+      40,
+      30,
+      50
+    ],
+    "weight": 42.1,
+    "catch_rate": 45
+  },
+  "shelgon": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      95,
+      100,
+      60,
+      50,
+      50
+    ],
+    "weight": 110.5,
+    "catch_rate": 45
+  },
+  "salamence": {
+    "type": [
+      "DRAGON",
+      "FLYING"
+    ],
+    "stats": [
+      95,
+      135,
+      80,
+      110,
+      80,
+      100
+    ],
+    "weight": 102.6,
+    "catch_rate": 45
+  },
+  "beldum": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      40,
+      55,
+      80,
+      35,
+      60,
+      30
+    ],
+    "weight": 95.2,
+    "catch_rate": 3
+  },
+  "metang": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      60,
+      75,
+      100,
+      55,
+      80,
+      50
+    ],
+    "weight": 202.5,
+    "catch_rate": 3
+  },
+  "metagross": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      80,
+      135,
+      130,
+      95,
+      90,
+      70
+    ],
+    "weight": 550,
+    "catch_rate": 3
+  },
+  "regirock": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      100,
+      200,
+      50,
+      100,
+      50
+    ],
+    "weight": 230,
+    "catch_rate": 3
+  },
+  "regice": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      50,
+      100,
+      100,
+      200,
+      50
+    ],
+    "weight": 175,
+    "catch_rate": 3
+  },
+  "registeel": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      75,
+      150,
+      75,
+      150,
+      50
+    ],
+    "weight": 205,
+    "catch_rate": 3
+  },
+  "latias": {
+    "type": [
+      "DRAGON",
+      "PSYCHIC"
+    ],
+    "stats": [
+      80,
+      80,
+      90,
+      110,
+      130,
+      110
+    ],
+    "weight": 40,
+    "catch_rate": 3
+  },
+  "latios": {
+    "type": [
+      "DRAGON",
+      "PSYCHIC"
+    ],
+    "stats": [
+      80,
+      90,
+      80,
+      130,
+      110,
+      110
+    ],
+    "weight": 60,
+    "catch_rate": 3
+  },
+  "kyogre": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      100,
+      90,
+      150,
+      140,
+      90
+    ],
+    "weight": 352,
+    "catch_rate": 3
+  },
+  "groudon": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      150,
+      140,
+      100,
+      90,
+      90
+    ],
+    "weight": 950,
+    "catch_rate": 3
+  },
+  "rayquaza": {
+    "type": [
+      "DRAGON",
+      "FLYING"
+    ],
+    "stats": [
+      105,
+      150,
+      90,
+      150,
+      90,
+      95
+    ],
+    "weight": 206.5,
+    "catch_rate": 3
+  },
+  "jirachi": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 1.1,
+    "catch_rate": 3
+  },
+  "deoxys": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      150,
+      50,
+      150,
+      50,
+      150
+    ],
+    "weight": 60.8,
+    "catch_rate": 3
+  },
+  "turtwig": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      68,
+      64,
+      45,
+      55,
+      31
+    ],
+    "weight": 10.2,
+    "catch_rate": 45
+  },
+  "grotle": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      89,
+      85,
+      55,
+      65,
+      36
+    ],
+    "weight": 97,
+    "catch_rate": 45
+  },
+  "torterra": {
+    "type": [
+      "GRASS",
+      "GROUND"
+    ],
+    "stats": [
+      95,
+      109,
+      105,
+      75,
+      85,
+      56
+    ],
+    "weight": 310,
+    "catch_rate": 45
+  },
+  "chimchar": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      44,
+      58,
+      44,
+      58,
+      44,
+      61
+    ],
+    "weight": 6.2,
+    "catch_rate": 45
+  },
+  "monferno": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      64,
+      78,
+      52,
+      78,
+      52,
+      81
+    ],
+    "weight": 22,
+    "catch_rate": 45
+  },
+  "infernape": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      76,
+      104,
+      71,
+      104,
+      71,
+      108
+    ],
+    "weight": 55,
+    "catch_rate": 45
+  },
+  "piplup": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      53,
+      51,
+      53,
+      61,
+      56,
+      40
+    ],
+    "weight": 5.2,
+    "catch_rate": 45
+  },
+  "prinplup": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      64,
+      66,
+      68,
+      81,
+      76,
+      50
+    ],
+    "weight": 23,
+    "catch_rate": 45
+  },
+  "empoleon": {
+    "type": [
+      "WATER",
+      "STEEL"
+    ],
+    "stats": [
+      84,
+      86,
+      88,
+      111,
+      101,
+      60
+    ],
+    "weight": 84.5,
+    "catch_rate": 45
+  },
+  "starly": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      40,
+      55,
+      30,
+      30,
+      30,
+      60
+    ],
+    "weight": 2,
+    "catch_rate": 255
+  },
+  "staravia": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      75,
+      50,
+      40,
+      40,
+      80
+    ],
+    "weight": 15.5,
+    "catch_rate": 120
+  },
+  "staraptor": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      85,
+      120,
+      70,
+      50,
+      60,
+      100
+    ],
+    "weight": 24.9,
+    "catch_rate": 45
+  },
+  "bidoof": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      59,
+      45,
+      40,
+      35,
+      40,
+      31
+    ],
+    "weight": 20,
+    "catch_rate": 255
+  },
+  "bibarel": {
+    "type": [
+      "NORMAL",
+      "WATER"
+    ],
+    "stats": [
+      79,
+      85,
+      60,
+      55,
+      60,
+      71
+    ],
+    "weight": 31.5,
+    "catch_rate": 127
+  },
+  "kricketot": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      37,
+      25,
+      41,
+      25,
+      41,
+      25
+    ],
+    "weight": 2.2,
+    "catch_rate": 255
+  },
+  "kricketune": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      77,
+      85,
+      51,
+      55,
+      51,
+      65
+    ],
+    "weight": 25.5,
+    "catch_rate": 45
+  },
+  "shinx": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      65,
+      34,
+      40,
+      34,
+      45
+    ],
+    "weight": 9.5,
+    "catch_rate": 235
+  },
+  "luxio": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      85,
+      49,
+      60,
+      49,
+      60
+    ],
+    "weight": 30.5,
+    "catch_rate": 120
+  },
+  "luxray": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      120,
+      79,
+      95,
+      79,
+      70
+    ],
+    "weight": 42,
+    "catch_rate": 45
+  },
+  "budew": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      40,
+      30,
+      35,
+      50,
+      70,
+      55
+    ],
+    "weight": 1.2,
+    "catch_rate": 255
+  },
+  "roserade": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      70,
+      65,
+      125,
+      105,
+      90
+    ],
+    "weight": 14.5,
+    "catch_rate": 75
+  },
+  "cranidos": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      67,
+      125,
+      40,
+      30,
+      30,
+      58
+    ],
+    "weight": 31.5,
+    "catch_rate": 45
+  },
+  "rampardos": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      97,
+      165,
+      60,
+      65,
+      50,
+      58
+    ],
+    "weight": 102.5,
+    "catch_rate": 45
+  },
+  "shieldon": {
+    "type": [
+      "ROCK",
+      "STEEL"
+    ],
+    "stats": [
+      30,
+      42,
+      118,
+      42,
+      88,
+      30
+    ],
+    "weight": 57,
+    "catch_rate": 45
+  },
+  "bastiodon": {
+    "type": [
+      "ROCK",
+      "STEEL"
+    ],
+    "stats": [
+      60,
+      52,
+      168,
+      47,
+      138,
+      30
+    ],
+    "weight": 149.5,
+    "catch_rate": 45
+  },
+  "burmy": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      29,
+      45,
+      29,
+      45,
+      36
+    ],
+    "weight": 3.4,
+    "catch_rate": 120
+  },
+  "wormadam": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      60,
+      59,
+      85,
+      79,
+      105,
+      36
+    ],
+    "weight": 6.5,
+    "catch_rate": 45
+  },
+  "mothim": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      94,
+      50,
+      94,
+      50,
+      66
+    ],
+    "weight": 23.3,
+    "catch_rate": 45
+  },
+  "combee": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      30,
+      30,
+      42,
+      30,
+      42,
+      70
+    ],
+    "weight": 5.5,
+    "catch_rate": 120
+  },
+  "vespiquen": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      80,
+      102,
+      80,
+      102,
+      40
+    ],
+    "weight": 38.5,
+    "catch_rate": 45
+  },
+  "pachirisu": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      45,
+      70,
+      45,
+      90,
+      95
+    ],
+    "weight": 3.9,
+    "catch_rate": 200
+  },
+  "buizel": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      65,
+      35,
+      60,
+      30,
+      85
+    ],
+    "weight": 29.5,
+    "catch_rate": 190
+  },
+  "floatzel": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      105,
+      55,
+      85,
+      50,
+      115
+    ],
+    "weight": 33.5,
+    "catch_rate": 75
+  },
+  "cherubi": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      35,
+      45,
+      62,
+      53,
+      35
+    ],
+    "weight": 3.3,
+    "catch_rate": 190
+  },
+  "cherrim": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      60,
+      70,
+      87,
+      78,
+      85
+    ],
+    "weight": 9.3,
+    "catch_rate": 75
+  },
+  "shellos": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      76,
+      48,
+      48,
+      57,
+      62,
+      34
+    ],
+    "weight": 6.3,
+    "catch_rate": 190
+  },
+  "gastrodon": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      111,
+      83,
+      68,
+      92,
+      82,
+      39
+    ],
+    "weight": 29.9,
+    "catch_rate": 75
+  },
+  "ambipom": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      100,
+      66,
+      60,
+      66,
+      115
+    ],
+    "weight": 20.3,
+    "catch_rate": 45
+  },
+  "drifloon": {
+    "type": [
+      "GHOST",
+      "FLYING"
+    ],
+    "stats": [
+      90,
+      50,
+      34,
+      60,
+      44,
+      70
+    ],
+    "weight": 1.2,
+    "catch_rate": 125
+  },
+  "drifblim": {
+    "type": [
+      "GHOST",
+      "FLYING"
+    ],
+    "stats": [
+      150,
+      80,
+      44,
+      90,
+      54,
+      80
+    ],
+    "weight": 15,
+    "catch_rate": 60
+  },
+  "buneary": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      66,
+      44,
+      44,
+      56,
+      85
+    ],
+    "weight": 5.5,
+    "catch_rate": 190
+  },
+  "lopunny": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      76,
+      84,
+      54,
+      96,
+      105
+    ],
+    "weight": 33.3,
+    "catch_rate": 60
+  },
+  "mismagius": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      60,
+      60,
+      105,
+      105,
+      105
+    ],
+    "weight": 4.4,
+    "catch_rate": 45
+  },
+  "honchkrow": {
+    "type": [
+      "DARK",
+      "FLYING"
+    ],
+    "stats": [
+      100,
+      125,
+      52,
+      105,
+      52,
+      71
+    ],
+    "weight": 27.3,
+    "catch_rate": 30
+  },
+  "glameow": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      49,
+      55,
+      42,
+      42,
+      37,
+      85
+    ],
+    "weight": 3.9,
+    "catch_rate": 190
+  },
+  "purugly": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      71,
+      82,
+      64,
+      64,
+      59,
+      112
+    ],
+    "weight": 43.8,
+    "catch_rate": 75
+  },
+  "chingling": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      30,
+      50,
+      65,
+      50,
+      45
+    ],
+    "weight": 0.6,
+    "catch_rate": 120
+  },
+  "stunky": {
+    "type": [
+      "POISON",
+      "DARK"
+    ],
+    "stats": [
+      63,
+      63,
+      47,
+      41,
+      41,
+      74
+    ],
+    "weight": 19.2,
+    "catch_rate": 225
+  },
+  "skuntank": {
+    "type": [
+      "POISON",
+      "DARK"
+    ],
+    "stats": [
+      103,
+      93,
+      67,
+      71,
+      61,
+      84
+    ],
+    "weight": 38,
+    "catch_rate": 60
+  },
+  "bronzor": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      57,
+      24,
+      86,
+      24,
+      86,
+      23
+    ],
+    "weight": 60.5,
+    "catch_rate": 255
+  },
+  "bronzong": {
+    "type": [
+      "STEEL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      67,
+      89,
+      116,
+      79,
+      116,
+      33
+    ],
+    "weight": 187,
+    "catch_rate": 90
+  },
+  "bonsly": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      80,
+      95,
+      10,
+      45,
+      10
+    ],
+    "weight": 15,
+    "catch_rate": 255
+  },
+  "mime jr.": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      20,
+      25,
+      45,
+      70,
+      90,
+      60
+    ],
+    "weight": 13,
+    "catch_rate": 145
+  },
+  "happiny": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      5,
+      5,
+      15,
+      65,
+      30
+    ],
+    "weight": 24.4,
+    "catch_rate": 130
+  },
+  "chatot": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      76,
+      65,
+      45,
+      92,
+      42,
+      91
+    ],
+    "weight": 1.9,
+    "catch_rate": 30
+  },
+  "spiritomb": {
+    "type": [
+      "GHOST",
+      "DARK"
+    ],
+    "stats": [
+      50,
+      92,
+      108,
+      92,
+      108,
+      35
+    ],
+    "weight": 108,
+    "catch_rate": 100
+  },
+  "gible": {
+    "type": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "stats": [
+      58,
+      70,
+      45,
+      40,
+      45,
+      42
+    ],
+    "weight": 20.5,
+    "catch_rate": 45
+  },
+  "gabite": {
+    "type": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "stats": [
+      68,
+      90,
+      65,
+      50,
+      55,
+      82
+    ],
+    "weight": 56,
+    "catch_rate": 45
+  },
+  "garchomp": {
+    "type": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "stats": [
+      108,
+      130,
+      95,
+      80,
+      85,
+      102
+    ],
+    "weight": 95,
+    "catch_rate": 45
+  },
+  "munchlax": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      135,
+      85,
+      40,
+      40,
+      85,
+      5
+    ],
+    "weight": 105,
+    "catch_rate": 50
+  },
+  "riolu": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      70,
+      40,
+      35,
+      40,
+      60
+    ],
+    "weight": 20.2,
+    "catch_rate": 75
+  },
+  "lucario": {
+    "type": [
+      "FIGHTING",
+      "STEEL"
+    ],
+    "stats": [
+      70,
+      110,
+      70,
+      115,
+      70,
+      90
+    ],
+    "weight": 54,
+    "catch_rate": 45
+  },
+  "hippopotas": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      68,
+      72,
+      78,
+      38,
+      42,
+      32
+    ],
+    "weight": 49.5,
+    "catch_rate": 140
+  },
+  "hippowdon": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      108,
+      112,
+      118,
+      68,
+      72,
+      47
+    ],
+    "weight": 300,
+    "catch_rate": 60
+  },
+  "skorupi": {
+    "type": [
+      "POISON",
+      "BUG"
+    ],
+    "stats": [
+      40,
+      50,
+      90,
+      30,
+      55,
+      65
+    ],
+    "weight": 12,
+    "catch_rate": 120
+  },
+  "drapion": {
+    "type": [
+      "POISON",
+      "DARK"
+    ],
+    "stats": [
+      70,
+      90,
+      110,
+      60,
+      75,
+      95
+    ],
+    "weight": 61.5,
+    "catch_rate": 45
+  },
+  "croagunk": {
+    "type": [
+      "POISON",
+      "FIGHTING"
+    ],
+    "stats": [
+      48,
+      61,
+      40,
+      61,
+      40,
+      50
+    ],
+    "weight": 23,
+    "catch_rate": 140
+  },
+  "toxicroak": {
+    "type": [
+      "POISON",
+      "FIGHTING"
+    ],
+    "stats": [
+      83,
+      106,
+      65,
+      86,
+      65,
+      85
+    ],
+    "weight": 44.4,
+    "catch_rate": 75
+  },
+  "carnivine": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      74,
+      100,
+      72,
+      90,
+      72,
+      46
+    ],
+    "weight": 27,
+    "catch_rate": 200
+  },
+  "finneon": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      49,
+      49,
+      56,
+      49,
+      61,
+      66
+    ],
+    "weight": 7,
+    "catch_rate": 190
+  },
+  "lumineon": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      69,
+      69,
+      76,
+      69,
+      86,
+      91
+    ],
+    "weight": 24,
+    "catch_rate": 75
+  },
+  "mantyke": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      45,
+      20,
+      50,
+      60,
+      120,
+      50
+    ],
+    "weight": 65,
+    "catch_rate": 25
+  },
+  "snover": {
+    "type": [
+      "GRASS",
+      "ICE"
+    ],
+    "stats": [
+      60,
+      62,
+      50,
+      62,
+      60,
+      40
+    ],
+    "weight": 50.5,
+    "catch_rate": 120
+  },
+  "abomasnow": {
+    "type": [
+      "GRASS",
+      "ICE"
+    ],
+    "stats": [
+      90,
+      92,
+      75,
+      92,
+      85,
+      60
+    ],
+    "weight": 135.5,
+    "catch_rate": 60
+  },
+  "weavile": {
+    "type": [
+      "DARK",
+      "ICE"
+    ],
+    "stats": [
+      70,
+      120,
+      65,
+      45,
+      85,
+      125
+    ],
+    "weight": 34,
+    "catch_rate": 45
+  },
+  "magnezone": {
+    "type": [
+      "ELECTRIC",
+      "STEEL"
+    ],
+    "stats": [
+      70,
+      70,
+      115,
+      130,
+      90,
+      60
+    ],
+    "weight": 180,
+    "catch_rate": 30
+  },
+  "lickilicky": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      110,
+      85,
+      95,
+      80,
+      95,
+      50
+    ],
+    "weight": 140,
+    "catch_rate": 30
+  },
+  "rhyperior": {
+    "type": [
+      "GROUND",
+      "ROCK"
+    ],
+    "stats": [
+      115,
+      140,
+      130,
+      55,
+      55,
+      40
+    ],
+    "weight": 282.8,
+    "catch_rate": 30
+  },
+  "tangrowth": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      100,
+      125,
+      110,
+      50,
+      50
+    ],
+    "weight": 128.6,
+    "catch_rate": 30
+  },
+  "electivire": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      123,
+      67,
+      95,
+      85,
+      95
+    ],
+    "weight": 138.6,
+    "catch_rate": 30
+  },
+  "magmortar": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      95,
+      67,
+      125,
+      95,
+      83
+    ],
+    "weight": 68,
+    "catch_rate": 30
+  },
+  "togekiss": {
+    "type": [
+      "FAIRY",
+      "FLYING"
+    ],
+    "stats": [
+      85,
+      50,
+      95,
+      120,
+      115,
+      80
+    ],
+    "weight": 38,
+    "catch_rate": 30
+  },
+  "yanmega": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      86,
+      76,
+      86,
+      116,
+      56,
+      95
+    ],
+    "weight": 51.5,
+    "catch_rate": 30
+  },
+  "leafeon": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      110,
+      130,
+      60,
+      65,
+      95
+    ],
+    "weight": 25.5,
+    "catch_rate": 45
+  },
+  "glaceon": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      60,
+      110,
+      130,
+      95,
+      65
+    ],
+    "weight": 25.9,
+    "catch_rate": 45
+  },
+  "gliscor": {
+    "type": [
+      "GROUND",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      95,
+      125,
+      45,
+      75,
+      95
+    ],
+    "weight": 42.5,
+    "catch_rate": 30
+  },
+  "mamoswine": {
+    "type": [
+      "ICE",
+      "GROUND"
+    ],
+    "stats": [
+      110,
+      130,
+      80,
+      70,
+      60,
+      80
+    ],
+    "weight": 291,
+    "catch_rate": 50
+  },
+  "porygon-z": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      80,
+      70,
+      135,
+      75,
+      90
+    ],
+    "weight": 34,
+    "catch_rate": 30
+  },
+  "gallade": {
+    "type": [
+      "PSYCHIC",
+      "FIGHTING"
+    ],
+    "stats": [
+      68,
+      125,
+      65,
+      65,
+      115,
+      80
+    ],
+    "weight": 52,
+    "catch_rate": 45
+  },
+  "probopass": {
+    "type": [
+      "ROCK",
+      "STEEL"
+    ],
+    "stats": [
+      60,
+      55,
+      145,
+      75,
+      150,
+      40
+    ],
+    "weight": 340,
+    "catch_rate": 60
+  },
+  "dusknoir": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      100,
+      135,
+      65,
+      135,
+      45
+    ],
+    "weight": 106.6,
+    "catch_rate": 45
+  },
+  "froslass": {
+    "type": [
+      "ICE",
+      "GHOST"
+    ],
+    "stats": [
+      70,
+      80,
+      70,
+      80,
+      70,
+      110
+    ],
+    "weight": 26.6,
+    "catch_rate": 75
+  },
+  "rotom": {
+    "type": [
+      "ELECTRIC",
+      "GHOST"
+    ],
+    "stats": [
+      50,
+      50,
+      77,
+      95,
+      77,
+      91
+    ],
+    "weight": 0.3,
+    "catch_rate": 45
+  },
+  "uxie": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      75,
+      130,
+      75,
+      130,
+      95
+    ],
+    "weight": 0.3,
+    "catch_rate": 3
+  },
+  "mesprit": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      105,
+      105,
+      105,
+      105,
+      80
+    ],
+    "weight": 0.3,
+    "catch_rate": 3
+  },
+  "azelf": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      125,
+      70,
+      125,
+      70,
+      115
+    ],
+    "weight": 0.3,
+    "catch_rate": 3
+  },
+  "dialga": {
+    "type": [
+      "STEEL",
+      "DRAGON"
+    ],
+    "stats": [
+      100,
+      120,
+      120,
+      150,
+      100,
+      90
+    ],
+    "weight": 683,
+    "catch_rate": 3
+  },
+  "palkia": {
+    "type": [
+      "WATER",
+      "DRAGON"
+    ],
+    "stats": [
+      90,
+      120,
+      100,
+      150,
+      120,
+      100
+    ],
+    "weight": 336,
+    "catch_rate": 3
+  },
+  "heatran": {
+    "type": [
+      "FIRE",
+      "STEEL"
+    ],
+    "stats": [
+      91,
+      90,
+      106,
+      130,
+      106,
+      77
+    ],
+    "weight": 430,
+    "catch_rate": 3
+  },
+  "regigigas": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      110,
+      160,
+      110,
+      80,
+      110,
+      100
+    ],
+    "weight": 420,
+    "catch_rate": 3
+  },
+  "giratina": {
+    "type": [
+      "GHOST",
+      "DRAGON"
+    ],
+    "stats": [
+      150,
+      100,
+      120,
+      100,
+      120,
+      90
+    ],
+    "weight": 750,
+    "catch_rate": 3
+  },
+  "cresselia": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      120,
+      70,
+      120,
+      75,
+      130,
+      85
+    ],
+    "weight": 85.6,
+    "catch_rate": 3
+  },
+  "phione": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "weight": 3.1,
+    "catch_rate": 30
+  },
+  "manaphy": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 1.4,
+    "catch_rate": 3
+  },
+  "darkrai": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      90,
+      90,
+      135,
+      90,
+      125
+    ],
+    "weight": 50.5,
+    "catch_rate": 3
+  },
+  "shaymin": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 2.1,
+    "catch_rate": 45
+  },
+  "arceus": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120
+    ],
+    "weight": 320,
+    "catch_rate": 3
+  },
+  "victini": {
+    "type": [
+      "PSYCHIC",
+      "FIRE"
+    ],
+    "stats": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "weight": 4,
+    "catch_rate": 3
+  },
+  "snivy": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      45,
+      55,
+      45,
+      55,
+      63
+    ],
+    "weight": 8.1,
+    "catch_rate": 45
+  },
+  "servine": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      60,
+      75,
+      60,
+      75,
+      83
+    ],
+    "weight": 16,
+    "catch_rate": 45
+  },
+  "serperior": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      75,
+      95,
+      75,
+      95,
+      113
+    ],
+    "weight": 63,
+    "catch_rate": 45
+  },
+  "tepig": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      63,
+      45,
+      45,
+      45,
+      45
+    ],
+    "weight": 9.9,
+    "catch_rate": 45
+  },
+  "pignite": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      90,
+      93,
+      55,
+      70,
+      55,
+      55
+    ],
+    "weight": 55.5,
+    "catch_rate": 45
+  },
+  "emboar": {
+    "type": [
+      "FIRE",
+      "FIGHTING"
+    ],
+    "stats": [
+      110,
+      123,
+      65,
+      100,
+      65,
+      65
+    ],
+    "weight": 150,
+    "catch_rate": 45
+  },
+  "oshawott": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      55,
+      45,
+      63,
+      45,
+      45
+    ],
+    "weight": 5.9,
+    "catch_rate": 45
+  },
+  "dewott": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      75,
+      60,
+      83,
+      60,
+      60
+    ],
+    "weight": 24.5,
+    "catch_rate": 45
+  },
+  "samurott": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      100,
+      85,
+      108,
+      70,
+      70
+    ],
+    "weight": 94.6,
+    "catch_rate": 45
+  },
+  "patrat": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      55,
+      39,
+      35,
+      39,
+      42
+    ],
+    "weight": 11.6,
+    "catch_rate": 255
+  },
+  "watchog": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      85,
+      69,
+      60,
+      69,
+      77
+    ],
+    "weight": 27,
+    "catch_rate": 255
+  },
+  "lillipup": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      60,
+      45,
+      25,
+      45,
+      55
+    ],
+    "weight": 4.1,
+    "catch_rate": 255
+  },
+  "herdier": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      80,
+      65,
+      35,
+      65,
+      60
+    ],
+    "weight": 14.7,
+    "catch_rate": 120
+  },
+  "stoutland": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      110,
+      90,
+      45,
+      90,
+      80
+    ],
+    "weight": 61,
+    "catch_rate": 45
+  },
+  "purrloin": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      41,
+      50,
+      37,
+      50,
+      37,
+      66
+    ],
+    "weight": 10.1,
+    "catch_rate": 255
+  },
+  "liepard": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      64,
+      88,
+      50,
+      88,
+      50,
+      106
+    ],
+    "weight": 37.5,
+    "catch_rate": 90
+  },
+  "pansage": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      53,
+      48,
+      53,
+      48,
+      64
+    ],
+    "weight": 10.5,
+    "catch_rate": 190
+  },
+  "simisage": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      98,
+      63,
+      98,
+      63,
+      101
+    ],
+    "weight": 30.5,
+    "catch_rate": 75
+  },
+  "pansear": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      53,
+      48,
+      53,
+      48,
+      64
+    ],
+    "weight": 11,
+    "catch_rate": 190
+  },
+  "simisear": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      98,
+      63,
+      98,
+      63,
+      101
+    ],
+    "weight": 28,
+    "catch_rate": 75
+  },
+  "panpour": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      53,
+      48,
+      53,
+      48,
+      64
+    ],
+    "weight": 13.5,
+    "catch_rate": 190
+  },
+  "simipour": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      98,
+      63,
+      98,
+      63,
+      101
+    ],
+    "weight": 29,
+    "catch_rate": 75
+  },
+  "munna": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      76,
+      25,
+      45,
+      67,
+      55,
+      24
+    ],
+    "weight": 23.3,
+    "catch_rate": 190
+  },
+  "musharna": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      116,
+      55,
+      85,
+      107,
+      95,
+      29
+    ],
+    "weight": 60.5,
+    "catch_rate": 75
+  },
+  "pidove": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      50,
+      55,
+      50,
+      36,
+      30,
+      43
+    ],
+    "weight": 2.1,
+    "catch_rate": 255
+  },
+  "tranquill": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      62,
+      77,
+      62,
+      50,
+      42,
+      65
+    ],
+    "weight": 15,
+    "catch_rate": 120
+  },
+  "unfezant": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      80,
+      115,
+      80,
+      65,
+      55,
+      93
+    ],
+    "weight": 29,
+    "catch_rate": 45
+  },
+  "blitzle": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      60,
+      32,
+      50,
+      32,
+      76
+    ],
+    "weight": 29.8,
+    "catch_rate": 190
+  },
+  "zebstrika": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      100,
+      63,
+      80,
+      63,
+      116
+    ],
+    "weight": 79.5,
+    "catch_rate": 75
+  },
+  "roggenrola": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      75,
+      85,
+      25,
+      25,
+      15
+    ],
+    "weight": 18,
+    "catch_rate": 255
+  },
+  "boldore": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      105,
+      105,
+      50,
+      40,
+      20
+    ],
+    "weight": 102,
+    "catch_rate": 120
+  },
+  "gigalith": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      135,
+      130,
+      60,
+      80,
+      25
+    ],
+    "weight": 260,
+    "catch_rate": 45
+  },
+  "woobat": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      65,
+      45,
+      43,
+      55,
+      43,
+      72
+    ],
+    "weight": 2.1,
+    "catch_rate": 190
+  },
+  "swoobat": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      67,
+      57,
+      55,
+      77,
+      55,
+      114
+    ],
+    "weight": 10.5,
+    "catch_rate": 45
+  },
+  "drilbur": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      85,
+      40,
+      30,
+      45,
+      68
+    ],
+    "weight": 8.5,
+    "catch_rate": 120
+  },
+  "excadrill": {
+    "type": [
+      "GROUND",
+      "STEEL"
+    ],
+    "stats": [
+      110,
+      135,
+      60,
+      50,
+      65,
+      88
+    ],
+    "weight": 40.4,
+    "catch_rate": 60
+  },
+  "audino": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      103,
+      60,
+      86,
+      60,
+      86,
+      50
+    ],
+    "weight": 31,
+    "catch_rate": 255
+  },
+  "timburr": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      80,
+      55,
+      25,
+      35,
+      35
+    ],
+    "weight": 12.5,
+    "catch_rate": 180
+  },
+  "gurdurr": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      105,
+      85,
+      40,
+      50,
+      40
+    ],
+    "weight": 40,
+    "catch_rate": 90
+  },
+  "conkeldurr": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      105,
+      140,
+      95,
+      55,
+      65,
+      45
+    ],
+    "weight": 87,
+    "catch_rate": 45
+  },
+  "tympole": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      50,
+      40,
+      50,
+      40,
+      64
+    ],
+    "weight": 4.5,
+    "catch_rate": 255
+  },
+  "palpitoad": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      75,
+      65,
+      55,
+      65,
+      55,
+      69
+    ],
+    "weight": 17,
+    "catch_rate": 120
+  },
+  "seismitoad": {
+    "type": [
+      "WATER",
+      "GROUND"
+    ],
+    "stats": [
+      105,
+      95,
+      75,
+      85,
+      75,
+      74
+    ],
+    "weight": 62,
+    "catch_rate": 45
+  },
+  "throh": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      120,
+      100,
+      85,
+      30,
+      85,
+      45
+    ],
+    "weight": 55.5,
+    "catch_rate": 45
+  },
+  "sawk": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      125,
+      75,
+      30,
+      75,
+      85
+    ],
+    "weight": 51,
+    "catch_rate": 45
+  },
+  "sewaddle": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      45,
+      53,
+      70,
+      40,
+      60,
+      42
+    ],
+    "weight": 2.5,
+    "catch_rate": 255
+  },
+  "swadloon": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      55,
+      63,
+      90,
+      50,
+      80,
+      42
+    ],
+    "weight": 7.3,
+    "catch_rate": 120
+  },
+  "leavanny": {
+    "type": [
+      "BUG",
+      "GRASS"
+    ],
+    "stats": [
+      75,
+      103,
+      80,
+      70,
+      80,
+      92
+    ],
+    "weight": 20.5,
+    "catch_rate": 45
+  },
+  "venipede": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      30,
+      45,
+      59,
+      30,
+      39,
+      57
+    ],
+    "weight": 5.3,
+    "catch_rate": 255
+  },
+  "whirlipede": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      40,
+      55,
+      99,
+      40,
+      79,
+      47
+    ],
+    "weight": 58.5,
+    "catch_rate": 120
+  },
+  "scolipede": {
+    "type": [
+      "BUG",
+      "POISON"
+    ],
+    "stats": [
+      60,
+      100,
+      89,
+      55,
+      69,
+      112
+    ],
+    "weight": 200.5,
+    "catch_rate": 45
+  },
+  "cottonee": {
+    "type": [
+      "GRASS",
+      "FAIRY"
+    ],
+    "stats": [
+      40,
+      27,
+      60,
+      37,
+      50,
+      66
+    ],
+    "weight": 0.6,
+    "catch_rate": 190
+  },
+  "whimsicott": {
+    "type": [
+      "GRASS",
+      "FAIRY"
+    ],
+    "stats": [
+      60,
+      67,
+      85,
+      77,
+      75,
+      116
+    ],
+    "weight": 6.6,
+    "catch_rate": 75
+  },
+  "petilil": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      35,
+      50,
+      70,
+      50,
+      30
+    ],
+    "weight": 6.6,
+    "catch_rate": 190
+  },
+  "lilligant": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      60,
+      75,
+      110,
+      75,
+      90
+    ],
+    "weight": 16.3,
+    "catch_rate": 75
+  },
+  "basculin": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      92,
+      65,
+      80,
+      55,
+      98
+    ],
+    "weight": 18,
+    "catch_rate": 190
+  },
+  "sandile": {
+    "type": [
+      "GROUND",
+      "DARK"
+    ],
+    "stats": [
+      50,
+      72,
+      35,
+      35,
+      35,
+      65
+    ],
+    "weight": 15.2,
+    "catch_rate": 180
+  },
+  "krokorok": {
+    "type": [
+      "GROUND",
+      "DARK"
+    ],
+    "stats": [
+      60,
+      82,
+      45,
+      45,
+      45,
+      74
+    ],
+    "weight": 33.4,
+    "catch_rate": 90
+  },
+  "krookodile": {
+    "type": [
+      "GROUND",
+      "DARK"
+    ],
+    "stats": [
+      95,
+      117,
+      80,
+      65,
+      70,
+      92
+    ],
+    "weight": 96.3,
+    "catch_rate": 45
+  },
+  "darumaka": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      90,
+      45,
+      15,
+      45,
+      50
+    ],
+    "weight": 37.5,
+    "catch_rate": 120
+  },
+  "darmanitan": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      105,
+      140,
+      55,
+      30,
+      55,
+      95
+    ],
+    "weight": 92.9,
+    "catch_rate": 60
+  },
+  "maractus": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      86,
+      67,
+      106,
+      67,
+      60
+    ],
+    "weight": 28,
+    "catch_rate": 255
+  },
+  "dwebble": {
+    "type": [
+      "BUG",
+      "ROCK"
+    ],
+    "stats": [
+      50,
+      65,
+      85,
+      35,
+      35,
+      55
+    ],
+    "weight": 14.5,
+    "catch_rate": 190
+  },
+  "crustle": {
+    "type": [
+      "BUG",
+      "ROCK"
+    ],
+    "stats": [
+      70,
+      105,
+      125,
+      65,
+      75,
+      45
+    ],
+    "weight": 200,
+    "catch_rate": 75
+  },
+  "scraggy": {
+    "type": [
+      "DARK",
+      "FIGHTING"
+    ],
+    "stats": [
+      50,
+      75,
+      70,
+      35,
+      70,
+      48
+    ],
+    "weight": 11.8,
+    "catch_rate": 180
+  },
+  "scrafty": {
+    "type": [
+      "DARK",
+      "FIGHTING"
+    ],
+    "stats": [
+      65,
+      90,
+      115,
+      45,
+      115,
+      58
+    ],
+    "weight": 30,
+    "catch_rate": 90
+  },
+  "sigilyph": {
+    "type": [
+      "PSYCHIC",
+      "FLYING"
+    ],
+    "stats": [
+      72,
+      58,
+      80,
+      103,
+      80,
+      97
+    ],
+    "weight": 14,
+    "catch_rate": 45
+  },
+  "yamask": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      38,
+      30,
+      85,
+      55,
+      65,
+      30
+    ],
+    "weight": 1.5,
+    "catch_rate": 190
+  },
+  "cofagrigus": {
+    "type": [
+      "GHOST",
+      "NONE"
+    ],
+    "stats": [
+      58,
+      50,
+      145,
+      95,
+      105,
+      30
+    ],
+    "weight": 76.5,
+    "catch_rate": 90
+  },
+  "tirtouga": {
+    "type": [
+      "WATER",
+      "ROCK"
+    ],
+    "stats": [
+      54,
+      78,
+      103,
+      53,
+      45,
+      22
+    ],
+    "weight": 16.5,
+    "catch_rate": 45
+  },
+  "carracosta": {
+    "type": [
+      "WATER",
+      "ROCK"
+    ],
+    "stats": [
+      74,
+      108,
+      133,
+      83,
+      65,
+      32
+    ],
+    "weight": 81,
+    "catch_rate": 45
+  },
+  "archen": {
+    "type": [
+      "ROCK",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      112,
+      45,
+      74,
+      45,
+      70
+    ],
+    "weight": 9.5,
+    "catch_rate": 45
+  },
+  "archeops": {
+    "type": [
+      "ROCK",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      140,
+      65,
+      112,
+      65,
+      110
+    ],
+    "weight": 32,
+    "catch_rate": 45
+  },
+  "trubbish": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      50,
+      62,
+      40,
+      62,
+      65
+    ],
+    "weight": 31,
+    "catch_rate": 190
+  },
+  "garbodor": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      95,
+      82,
+      60,
+      82,
+      75
+    ],
+    "weight": 107.3,
+    "catch_rate": 60
+  },
+  "zorua": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      65,
+      40,
+      80,
+      40,
+      65
+    ],
+    "weight": 12.5,
+    "catch_rate": 75
+  },
+  "zoroark": {
+    "type": [
+      "DARK",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      105,
+      60,
+      120,
+      60,
+      105
+    ],
+    "weight": 81.1,
+    "catch_rate": 45
+  },
+  "minccino": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      50,
+      40,
+      40,
+      40,
+      75
+    ],
+    "weight": 5.8,
+    "catch_rate": 255
+  },
+  "cinccino": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      95,
+      60,
+      65,
+      60,
+      115
+    ],
+    "weight": 7.5,
+    "catch_rate": 60
+  },
+  "gothita": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      30,
+      50,
+      55,
+      65,
+      45
+    ],
+    "weight": 5.8,
+    "catch_rate": 200
+  },
+  "gothorita": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      45,
+      70,
+      75,
+      85,
+      55
+    ],
+    "weight": 18,
+    "catch_rate": 100
+  },
+  "gothitelle": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      55,
+      95,
+      95,
+      110,
+      65
+    ],
+    "weight": 44,
+    "catch_rate": 50
+  },
+  "solosis": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      30,
+      40,
+      105,
+      50,
+      20
+    ],
+    "weight": 1,
+    "catch_rate": 200
+  },
+  "duosion": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      40,
+      50,
+      125,
+      60,
+      30
+    ],
+    "weight": 8,
+    "catch_rate": 100
+  },
+  "reuniclus": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      110,
+      65,
+      75,
+      125,
+      85,
+      30
+    ],
+    "weight": 20.1,
+    "catch_rate": 50
+  },
+  "ducklett": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      62,
+      44,
+      50,
+      44,
+      50,
+      55
+    ],
+    "weight": 5.5,
+    "catch_rate": 190
+  },
+  "swanna": {
+    "type": [
+      "WATER",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      87,
+      63,
+      87,
+      63,
+      98
+    ],
+    "weight": 24.2,
+    "catch_rate": 45
+  },
+  "vanillite": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      36,
+      50,
+      50,
+      65,
+      60,
+      44
+    ],
+    "weight": 5.7,
+    "catch_rate": 255
+  },
+  "vanillish": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      51,
+      65,
+      65,
+      80,
+      75,
+      59
+    ],
+    "weight": 41,
+    "catch_rate": 120
+  },
+  "vanilluxe": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      71,
+      95,
+      85,
+      110,
+      95,
+      79
+    ],
+    "weight": 57.5,
+    "catch_rate": 45
+  },
+  "deerling": {
+    "type": [
+      "NORMAL",
+      "GRASS"
+    ],
+    "stats": [
+      60,
+      60,
+      50,
+      40,
+      50,
+      75
+    ],
+    "weight": 19.5,
+    "catch_rate": 190
+  },
+  "sawsbuck": {
+    "type": [
+      "NORMAL",
+      "GRASS"
+    ],
+    "stats": [
+      80,
+      100,
+      70,
+      60,
+      70,
+      95
+    ],
+    "weight": 92.5,
+    "catch_rate": 75
+  },
+  "emolga": {
+    "type": [
+      "ELECTRIC",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      75,
+      60,
+      75,
+      60,
+      103
+    ],
+    "weight": 5,
+    "catch_rate": 200
+  },
+  "karrablast": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      75,
+      45,
+      40,
+      45,
+      60
+    ],
+    "weight": 5.9,
+    "catch_rate": 200
+  },
+  "escavalier": {
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "stats": [
+      70,
+      135,
+      105,
+      60,
+      105,
+      20
+    ],
+    "weight": 33,
+    "catch_rate": 75
+  },
+  "foongus": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      69,
+      55,
+      45,
+      55,
+      55,
+      15
+    ],
+    "weight": 1,
+    "catch_rate": 190
+  },
+  "amoonguss": {
+    "type": [
+      "GRASS",
+      "POISON"
+    ],
+    "stats": [
+      114,
+      85,
+      70,
+      85,
+      80,
+      30
+    ],
+    "weight": 10.5,
+    "catch_rate": 75
+  },
+  "frillish": {
+    "type": [
+      "WATER",
+      "GHOST"
+    ],
+    "stats": [
+      55,
+      40,
+      50,
+      65,
+      85,
+      40
+    ],
+    "weight": 33,
+    "catch_rate": 190
+  },
+  "jellicent": {
+    "type": [
+      "WATER",
+      "GHOST"
+    ],
+    "stats": [
+      100,
+      60,
+      70,
+      85,
+      105,
+      60
+    ],
+    "weight": 135,
+    "catch_rate": 60
+  },
+  "alomomola": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      165,
+      75,
+      80,
+      40,
+      45,
+      65
+    ],
+    "weight": 31.6,
+    "catch_rate": 75
+  },
+  "joltik": {
+    "type": [
+      "BUG",
+      "ELECTRIC"
+    ],
+    "stats": [
+      50,
+      47,
+      50,
+      57,
+      50,
+      65
+    ],
+    "weight": 0.6,
+    "catch_rate": 190
+  },
+  "galvantula": {
+    "type": [
+      "BUG",
+      "ELECTRIC"
+    ],
+    "stats": [
+      70,
+      77,
+      60,
+      97,
+      60,
+      108
+    ],
+    "weight": 14.3,
+    "catch_rate": 75
+  },
+  "ferroseed": {
+    "type": [
+      "GRASS",
+      "STEEL"
+    ],
+    "stats": [
+      44,
+      50,
+      91,
+      24,
+      86,
+      10
+    ],
+    "weight": 18.8,
+    "catch_rate": 255
+  },
+  "ferrothorn": {
+    "type": [
+      "GRASS",
+      "STEEL"
+    ],
+    "stats": [
+      74,
+      94,
+      131,
+      54,
+      116,
+      20
+    ],
+    "weight": 110,
+    "catch_rate": 90
+  },
+  "klink": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      55,
+      70,
+      45,
+      60,
+      30
+    ],
+    "weight": 21,
+    "catch_rate": 130
+  },
+  "klang": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      80,
+      95,
+      70,
+      85,
+      50
+    ],
+    "weight": 51,
+    "catch_rate": 60
+  },
+  "klinklang": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      100,
+      115,
+      70,
+      85,
+      90
+    ],
+    "weight": 81,
+    "catch_rate": 30
+  },
+  "tynamo": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      35,
+      55,
+      40,
+      45,
+      40,
+      60
+    ],
+    "weight": 0.3,
+    "catch_rate": 190
+  },
+  "eelektrik": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      85,
+      70,
+      75,
+      70,
+      40
+    ],
+    "weight": 22,
+    "catch_rate": 60
+  },
+  "eelektross": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      115,
+      80,
+      105,
+      80,
+      50
+    ],
+    "weight": 80.5,
+    "catch_rate": 30
+  },
+  "elgyem": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      55,
+      55,
+      85,
+      55,
+      30
+    ],
+    "weight": 9,
+    "catch_rate": 255
+  },
+  "beheeyem": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      75,
+      75,
+      125,
+      95,
+      40
+    ],
+    "weight": 34.5,
+    "catch_rate": 90
+  },
+  "litwick": {
+    "type": [
+      "GHOST",
+      "FIRE"
+    ],
+    "stats": [
+      50,
+      30,
+      55,
+      65,
+      55,
+      20
+    ],
+    "weight": 3.1,
+    "catch_rate": 190
+  },
+  "lampent": {
+    "type": [
+      "GHOST",
+      "FIRE"
+    ],
+    "stats": [
+      60,
+      40,
+      60,
+      95,
+      60,
+      55
+    ],
+    "weight": 13,
+    "catch_rate": 90
+  },
+  "chandelure": {
+    "type": [
+      "GHOST",
+      "FIRE"
+    ],
+    "stats": [
+      60,
+      55,
+      90,
+      145,
+      90,
+      80
+    ],
+    "weight": 34.3,
+    "catch_rate": 45
+  },
+  "axew": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      46,
+      87,
+      60,
+      30,
+      40,
+      57
+    ],
+    "weight": 18,
+    "catch_rate": 75
+  },
+  "fraxure": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      66,
+      117,
+      70,
+      40,
+      50,
+      67
+    ],
+    "weight": 36,
+    "catch_rate": 60
+  },
+  "haxorus": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      76,
+      147,
+      90,
+      60,
+      70,
+      97
+    ],
+    "weight": 105.5,
+    "catch_rate": 45
+  },
+  "cubchoo": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      70,
+      40,
+      60,
+      40,
+      40
+    ],
+    "weight": 8.5,
+    "catch_rate": 120
+  },
+  "beartic": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      130,
+      80,
+      70,
+      80,
+      50
+    ],
+    "weight": 260,
+    "catch_rate": 60
+  },
+  "cryogonal": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      50,
+      50,
+      95,
+      135,
+      105
+    ],
+    "weight": 148,
+    "catch_rate": 25
+  },
+  "shelmet": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      40,
+      85,
+      40,
+      65,
+      25
+    ],
+    "weight": 7.7,
+    "catch_rate": 200
+  },
+  "accelgor": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      80,
+      70,
+      40,
+      100,
+      60,
+      145
+    ],
+    "weight": 25.3,
+    "catch_rate": 75
+  },
+  "stunfisk": {
+    "type": [
+      "GROUND",
+      "ELECTRIC"
+    ],
+    "stats": [
+      109,
+      66,
+      84,
+      81,
+      99,
+      32
+    ],
+    "weight": 11,
+    "catch_rate": 75
+  },
+  "mienfoo": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      85,
+      50,
+      55,
+      50,
+      65
+    ],
+    "weight": 20,
+    "catch_rate": 180
+  },
+  "mienshao": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      125,
+      60,
+      95,
+      60,
+      105
+    ],
+    "weight": 35.5,
+    "catch_rate": 45
+  },
+  "druddigon": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      77,
+      120,
+      90,
+      60,
+      90,
+      48
+    ],
+    "weight": 139,
+    "catch_rate": 45
+  },
+  "golett": {
+    "type": [
+      "GROUND",
+      "GHOST"
+    ],
+    "stats": [
+      59,
+      74,
+      50,
+      35,
+      50,
+      35
+    ],
+    "weight": 92,
+    "catch_rate": 190
+  },
+  "golurk": {
+    "type": [
+      "GROUND",
+      "GHOST"
+    ],
+    "stats": [
+      89,
+      124,
+      80,
+      55,
+      80,
+      55
+    ],
+    "weight": 330,
+    "catch_rate": 90
+  },
+  "pawniard": {
+    "type": [
+      "DARK",
+      "STEEL"
+    ],
+    "stats": [
+      45,
+      85,
+      70,
+      40,
+      40,
+      60
+    ],
+    "weight": 10.2,
+    "catch_rate": 120
+  },
+  "bisharp": {
+    "type": [
+      "DARK",
+      "STEEL"
+    ],
+    "stats": [
+      65,
+      125,
+      100,
+      60,
+      70,
+      70
+    ],
+    "weight": 70,
+    "catch_rate": 45
+  },
+  "bouffalant": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      110,
+      95,
+      40,
+      95,
+      55
+    ],
+    "weight": 94.6,
+    "catch_rate": 45
+  },
+  "rufflet": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      83,
+      50,
+      37,
+      50,
+      60
+    ],
+    "weight": 10.5,
+    "catch_rate": 190
+  },
+  "braviary": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      100,
+      123,
+      75,
+      57,
+      75,
+      80
+    ],
+    "weight": 41,
+    "catch_rate": 60
+  },
+  "vullaby": {
+    "type": [
+      "DARK",
+      "FLYING"
+    ],
+    "stats": [
+      70,
+      55,
+      75,
+      45,
+      65,
+      60
+    ],
+    "weight": 9,
+    "catch_rate": 190
+  },
+  "mandibuzz": {
+    "type": [
+      "DARK",
+      "FLYING"
+    ],
+    "stats": [
+      110,
+      65,
+      105,
+      55,
+      95,
+      80
+    ],
+    "weight": 39.5,
+    "catch_rate": 60
+  },
+  "heatmor": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      85,
+      97,
+      66,
+      105,
+      66,
+      65
+    ],
+    "weight": 58,
+    "catch_rate": 90
+  },
+  "durant": {
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "stats": [
+      58,
+      109,
+      112,
+      48,
+      48,
+      109
+    ],
+    "weight": 33,
+    "catch_rate": 90
+  },
+  "deino": {
+    "type": [
+      "DARK",
+      "DRAGON"
+    ],
+    "stats": [
+      52,
+      65,
+      50,
+      45,
+      50,
+      38
+    ],
+    "weight": 17.3,
+    "catch_rate": 45
+  },
+  "zweilous": {
+    "type": [
+      "DARK",
+      "DRAGON"
+    ],
+    "stats": [
+      72,
+      85,
+      70,
+      65,
+      70,
+      58
+    ],
+    "weight": 50,
+    "catch_rate": 45
+  },
+  "hydreigon": {
+    "type": [
+      "DARK",
+      "DRAGON"
+    ],
+    "stats": [
+      92,
+      105,
+      90,
+      125,
+      90,
+      98
+    ],
+    "weight": 160,
+    "catch_rate": 45
+  },
+  "larvesta": {
+    "type": [
+      "BUG",
+      "FIRE"
+    ],
+    "stats": [
+      55,
+      85,
+      55,
+      50,
+      55,
+      60
+    ],
+    "weight": 28.8,
+    "catch_rate": 45
+  },
+  "volcarona": {
+    "type": [
+      "BUG",
+      "FIRE"
+    ],
+    "stats": [
+      85,
+      60,
+      65,
+      135,
+      105,
+      100
+    ],
+    "weight": 46,
+    "catch_rate": 15
+  },
+  "cobalion": {
+    "type": [
+      "STEEL",
+      "FIGHTING"
+    ],
+    "stats": [
+      91,
+      90,
+      129,
+      90,
+      72,
+      108
+    ],
+    "weight": 250,
+    "catch_rate": 3
+  },
+  "terrakion": {
+    "type": [
+      "ROCK",
+      "FIGHTING"
+    ],
+    "stats": [
+      91,
+      129,
+      90,
+      72,
+      90,
+      108
+    ],
+    "weight": 260,
+    "catch_rate": 3
+  },
+  "virizion": {
+    "type": [
+      "GRASS",
+      "FIGHTING"
+    ],
+    "stats": [
+      91,
+      90,
+      72,
+      90,
+      129,
+      108
+    ],
+    "weight": 200,
+    "catch_rate": 3
+  },
+  "tornadus": {
+    "type": [
+      "FLYING",
+      "NONE"
+    ],
+    "stats": [
+      79,
+      115,
+      70,
+      125,
+      80,
+      111
+    ],
+    "weight": 63,
+    "catch_rate": 3
+  },
+  "thundurus": {
+    "type": [
+      "ELECTRIC",
+      "FLYING"
+    ],
+    "stats": [
+      79,
+      115,
+      70,
+      125,
+      80,
+      111
+    ],
+    "weight": 61,
+    "catch_rate": 3
+  },
+  "reshiram": {
+    "type": [
+      "DRAGON",
+      "FIRE"
+    ],
+    "stats": [
+      100,
+      120,
+      100,
+      150,
+      120,
+      90
+    ],
+    "weight": 330,
+    "catch_rate": 3
+  },
+  "zekrom": {
+    "type": [
+      "DRAGON",
+      "ELECTRIC"
+    ],
+    "stats": [
+      100,
+      150,
+      120,
+      120,
+      100,
+      90
+    ],
+    "weight": 345,
+    "catch_rate": 3
+  },
+  "landorus": {
+    "type": [
+      "GROUND",
+      "FLYING"
+    ],
+    "stats": [
+      89,
+      125,
+      90,
+      115,
+      80,
+      101
+    ],
+    "weight": 68,
+    "catch_rate": 3
+  },
+  "kyurem": {
+    "type": [
+      "DRAGON",
+      "ICE"
+    ],
+    "stats": [
+      125,
+      130,
+      90,
+      130,
+      90,
+      95
+    ],
+    "weight": 325,
+    "catch_rate": 3
+  },
+  "keldeo": {
+    "type": [
+      "WATER",
+      "FIGHTING"
+    ],
+    "stats": [
+      91,
+      72,
+      90,
+      129,
+      90,
+      108
+    ],
+    "weight": 48.5,
+    "catch_rate": 3
+  },
+  "meloetta": {
+    "type": [
+      "NORMAL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      100,
+      77,
+      77,
+      128,
+      128,
+      90
+    ],
+    "weight": 6.5,
+    "catch_rate": 3
+  },
+  "genesect": {
+    "type": [
+      "BUG",
+      "STEEL"
+    ],
+    "stats": [
+      71,
+      120,
+      95,
+      120,
+      95,
+      99
+    ],
+    "weight": 82.5,
+    "catch_rate": 3
+  },
+  "chespin": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      56,
+      61,
+      65,
+      48,
+      45,
+      38
+    ],
+    "weight": 9,
+    "catch_rate": 45
+  },
+  "quilladin": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      61,
+      78,
+      95,
+      56,
+      58,
+      57
+    ],
+    "weight": 29,
+    "catch_rate": 45
+  },
+  "chesnaught": {
+    "type": [
+      "GRASS",
+      "FIGHTING"
+    ],
+    "stats": [
+      88,
+      107,
+      122,
+      74,
+      75,
+      64
+    ],
+    "weight": 90,
+    "catch_rate": 45
+  },
+  "fennekin": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      45,
+      40,
+      62,
+      60,
+      60
+    ],
+    "weight": 9.4,
+    "catch_rate": 45
+  },
+  "braixen": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      59,
+      59,
+      58,
+      90,
+      70,
+      73
+    ],
+    "weight": 14.5,
+    "catch_rate": 45
+  },
+  "delphox": {
+    "type": [
+      "FIRE",
+      "PSYCHIC"
+    ],
+    "stats": [
+      75,
+      69,
+      72,
+      114,
+      100,
+      104
+    ],
+    "weight": 39,
+    "catch_rate": 45
+  },
+  "froakie": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      41,
+      56,
+      40,
+      62,
+      44,
+      71
+    ],
+    "weight": 7,
+    "catch_rate": 45
+  },
+  "frogadier": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      54,
+      63,
+      52,
+      83,
+      56,
+      97
+    ],
+    "weight": 10.9,
+    "catch_rate": 45
+  },
+  "greninja": {
+    "type": [
+      "WATER",
+      "DARK"
+    ],
+    "stats": [
+      72,
+      95,
+      67,
+      103,
+      71,
+      122
+    ],
+    "weight": 40,
+    "catch_rate": 45
+  },
+  "bunnelby": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      38,
+      36,
+      38,
+      32,
+      36,
+      57
+    ],
+    "weight": 5,
+    "catch_rate": 255
+  },
+  "diggersby": {
+    "type": [
+      "NORMAL",
+      "GROUND"
+    ],
+    "stats": [
+      85,
+      56,
+      77,
+      50,
+      77,
+      78
+    ],
+    "weight": 42.4,
+    "catch_rate": 127
+  },
+  "fletchling": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      45,
+      50,
+      43,
+      40,
+      38,
+      62
+    ],
+    "weight": 1.7,
+    "catch_rate": 255
+  },
+  "fletchinder": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      62,
+      73,
+      55,
+      56,
+      52,
+      84
+    ],
+    "weight": 16,
+    "catch_rate": 120
+  },
+  "talonflame": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      78,
+      81,
+      71,
+      74,
+      69,
+      126
+    ],
+    "weight": 24.5,
+    "catch_rate": 45
+  },
+  "scatterbug": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      38,
+      35,
+      40,
+      27,
+      25,
+      35
+    ],
+    "weight": 2.5,
+    "catch_rate": 255
+  },
+  "spewpa": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      22,
+      60,
+      27,
+      30,
+      29
+    ],
+    "weight": 8.4,
+    "catch_rate": 120
+  },
+  "vivillon": {
+    "type": [
+      "BUG",
+      "FLYING"
+    ],
+    "stats": [
+      80,
+      52,
+      50,
+      90,
+      50,
+      89
+    ],
+    "weight": 17,
+    "catch_rate": 45
+  },
+  "litleo": {
+    "type": [
+      "FIRE",
+      "NORMAL"
+    ],
+    "stats": [
+      62,
+      50,
+      58,
+      73,
+      54,
+      72
+    ],
+    "weight": 13.5,
+    "catch_rate": 220
+  },
+  "pyroar": {
+    "type": [
+      "FIRE",
+      "NORMAL"
+    ],
+    "stats": [
+      86,
+      68,
+      72,
+      109,
+      66,
+      106
+    ],
+    "weight": 81.5,
+    "catch_rate": 65
+  },
+  "flab\u00e9b\u00e9": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      44,
+      38,
+      39,
+      61,
+      79,
+      42
+    ],
+    "weight": 0.1,
+    "catch_rate": 225
+  },
+  "floette": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      54,
+      45,
+      47,
+      75,
+      98,
+      52
+    ],
+    "weight": 0.9,
+    "catch_rate": 120
+  },
+  "florges": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      78,
+      65,
+      68,
+      112,
+      154,
+      75
+    ],
+    "weight": 10,
+    "catch_rate": 45
+  },
+  "skiddo": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      66,
+      65,
+      48,
+      62,
+      57,
+      52
+    ],
+    "weight": 31,
+    "catch_rate": 200
+  },
+  "gogoat": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      123,
+      100,
+      62,
+      97,
+      81,
+      68
+    ],
+    "weight": 91,
+    "catch_rate": 45
+  },
+  "pancham": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      67,
+      82,
+      62,
+      46,
+      48,
+      43
+    ],
+    "weight": 8,
+    "catch_rate": 220
+  },
+  "pangoro": {
+    "type": [
+      "FIGHTING",
+      "DARK"
+    ],
+    "stats": [
+      95,
+      124,
+      78,
+      69,
+      71,
+      58
+    ],
+    "weight": 136,
+    "catch_rate": 65
+  },
+  "furfrou": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      80,
+      60,
+      65,
+      90,
+      102
+    ],
+    "weight": 28,
+    "catch_rate": 160
+  },
+  "espurr": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      62,
+      48,
+      54,
+      63,
+      60,
+      68
+    ],
+    "weight": 3.5,
+    "catch_rate": 190
+  },
+  "meowstic": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      74,
+      48,
+      76,
+      83,
+      81,
+      104
+    ],
+    "weight": 8.5,
+    "catch_rate": 75
+  },
+  "honedge": {
+    "type": [
+      "STEEL",
+      "GHOST"
+    ],
+    "stats": [
+      45,
+      80,
+      100,
+      35,
+      37,
+      28
+    ],
+    "weight": 2,
+    "catch_rate": 180
+  },
+  "doublade": {
+    "type": [
+      "STEEL",
+      "GHOST"
+    ],
+    "stats": [
+      59,
+      110,
+      150,
+      45,
+      49,
+      35
+    ],
+    "weight": 4.5,
+    "catch_rate": 90
+  },
+  "aegislash": {
+    "type": [
+      "STEEL",
+      "GHOST"
+    ],
+    "stats": [
+      60,
+      50,
+      150,
+      50,
+      150,
+      60
+    ],
+    "weight": 53,
+    "catch_rate": 45
+  },
+  "spritzee": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      78,
+      52,
+      60,
+      63,
+      65,
+      23
+    ],
+    "weight": 0.5,
+    "catch_rate": 200
+  },
+  "aromatisse": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      101,
+      72,
+      72,
+      99,
+      89,
+      29
+    ],
+    "weight": 15.5,
+    "catch_rate": 140
+  },
+  "swirlix": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      62,
+      48,
+      66,
+      59,
+      57,
+      49
+    ],
+    "weight": 3.5,
+    "catch_rate": 200
+  },
+  "slurpuff": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      82,
+      80,
+      86,
+      85,
+      75,
+      72
+    ],
+    "weight": 5,
+    "catch_rate": 140
+  },
+  "inkay": {
+    "type": [
+      "DARK",
+      "PSYCHIC"
+    ],
+    "stats": [
+      53,
+      54,
+      53,
+      37,
+      46,
+      45
+    ],
+    "weight": 3.5,
+    "catch_rate": 190
+  },
+  "malamar": {
+    "type": [
+      "DARK",
+      "PSYCHIC"
+    ],
+    "stats": [
+      86,
+      92,
+      88,
+      68,
+      75,
+      73
+    ],
+    "weight": 47,
+    "catch_rate": 80
+  },
+  "binacle": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      42,
+      52,
+      67,
+      39,
+      56,
+      50
+    ],
+    "weight": 31,
+    "catch_rate": 120
+  },
+  "barbaracle": {
+    "type": [
+      "ROCK",
+      "WATER"
+    ],
+    "stats": [
+      72,
+      105,
+      115,
+      54,
+      86,
+      68
+    ],
+    "weight": 96,
+    "catch_rate": 45
+  },
+  "skrelp": {
+    "type": [
+      "POISON",
+      "WATER"
+    ],
+    "stats": [
+      50,
+      60,
+      60,
+      60,
+      60,
+      30
+    ],
+    "weight": 7.3,
+    "catch_rate": 225
+  },
+  "dragalge": {
+    "type": [
+      "POISON",
+      "DRAGON"
+    ],
+    "stats": [
+      65,
+      75,
+      90,
+      97,
+      123,
+      44
+    ],
+    "weight": 81.5,
+    "catch_rate": 55
+  },
+  "clauncher": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      53,
+      62,
+      58,
+      63,
+      44
+    ],
+    "weight": 8.3,
+    "catch_rate": 225
+  },
+  "clawitzer": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      71,
+      73,
+      88,
+      120,
+      89,
+      59
+    ],
+    "weight": 35.3,
+    "catch_rate": 55
+  },
+  "helioptile": {
+    "type": [
+      "ELECTRIC",
+      "NORMAL"
+    ],
+    "stats": [
+      44,
+      38,
+      33,
+      61,
+      43,
+      70
+    ],
+    "weight": 6,
+    "catch_rate": 190
+  },
+  "heliolisk": {
+    "type": [
+      "ELECTRIC",
+      "NORMAL"
+    ],
+    "stats": [
+      62,
+      55,
+      52,
+      109,
+      94,
+      109
+    ],
+    "weight": 21,
+    "catch_rate": 75
+  },
+  "tyrunt": {
+    "type": [
+      "ROCK",
+      "DRAGON"
+    ],
+    "stats": [
+      58,
+      89,
+      77,
+      45,
+      45,
+      48
+    ],
+    "weight": 26,
+    "catch_rate": 45
+  },
+  "tyrantrum": {
+    "type": [
+      "ROCK",
+      "DRAGON"
+    ],
+    "stats": [
+      82,
+      121,
+      119,
+      69,
+      59,
+      71
+    ],
+    "weight": 270,
+    "catch_rate": 45
+  },
+  "amaura": {
+    "type": [
+      "ROCK",
+      "ICE"
+    ],
+    "stats": [
+      77,
+      59,
+      50,
+      67,
+      63,
+      46
+    ],
+    "weight": 25.2,
+    "catch_rate": 45
+  },
+  "aurorus": {
+    "type": [
+      "ROCK",
+      "ICE"
+    ],
+    "stats": [
+      123,
+      77,
+      72,
+      99,
+      92,
+      58
+    ],
+    "weight": 225,
+    "catch_rate": 45
+  },
+  "sylveon": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      65,
+      65,
+      110,
+      130,
+      60
+    ],
+    "weight": 23.5,
+    "catch_rate": 45
+  },
+  "hawlucha": {
+    "type": [
+      "FIGHTING",
+      "FLYING"
+    ],
+    "stats": [
+      78,
+      92,
+      75,
+      74,
+      63,
+      118
+    ],
+    "weight": 21.5,
+    "catch_rate": 100
+  },
+  "dedenne": {
+    "type": [
+      "ELECTRIC",
+      "FAIRY"
+    ],
+    "stats": [
+      67,
+      58,
+      57,
+      81,
+      67,
+      101
+    ],
+    "weight": 2.2,
+    "catch_rate": 180
+  },
+  "carbink": {
+    "type": [
+      "ROCK",
+      "FAIRY"
+    ],
+    "stats": [
+      50,
+      50,
+      150,
+      50,
+      150,
+      50
+    ],
+    "weight": 5.7,
+    "catch_rate": 60
+  },
+  "goomy": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      50,
+      35,
+      55,
+      75,
+      40
+    ],
+    "weight": 2.8,
+    "catch_rate": 45
+  },
+  "sliggoo": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      68,
+      75,
+      53,
+      83,
+      113,
+      60
+    ],
+    "weight": 17.5,
+    "catch_rate": 45
+  },
+  "goodra": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      90,
+      100,
+      70,
+      110,
+      150,
+      80
+    ],
+    "weight": 150.5,
+    "catch_rate": 45
+  },
+  "klefki": {
+    "type": [
+      "STEEL",
+      "FAIRY"
+    ],
+    "stats": [
+      57,
+      80,
+      91,
+      80,
+      87,
+      75
+    ],
+    "weight": 3,
+    "catch_rate": 75
+  },
+  "phantump": {
+    "type": [
+      "GHOST",
+      "GRASS"
+    ],
+    "stats": [
+      43,
+      70,
+      48,
+      50,
+      60,
+      38
+    ],
+    "weight": 7,
+    "catch_rate": 120
+  },
+  "trevenant": {
+    "type": [
+      "GHOST",
+      "GRASS"
+    ],
+    "stats": [
+      85,
+      110,
+      76,
+      65,
+      82,
+      56
+    ],
+    "weight": 71,
+    "catch_rate": 60
+  },
+  "pumpkaboo": {
+    "type": [
+      "GHOST",
+      "GRASS"
+    ],
+    "stats": [
+      59,
+      66,
+      70,
+      44,
+      55,
+      41
+    ],
+    "weight": 5,
+    "catch_rate": 120
+  },
+  "gourgeist": {
+    "type": [
+      "GHOST",
+      "GRASS"
+    ],
+    "stats": [
+      85,
+      100,
+      122,
+      58,
+      75,
+      54
+    ],
+    "weight": 12.5,
+    "catch_rate": 60
+  },
+  "bergmite": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      69,
+      85,
+      32,
+      35,
+      28
+    ],
+    "weight": 99.5,
+    "catch_rate": 190
+  },
+  "avalugg": {
+    "type": [
+      "ICE",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      117,
+      184,
+      44,
+      46,
+      28
+    ],
+    "weight": 505,
+    "catch_rate": 55
+  },
+  "noibat": {
+    "type": [
+      "FLYING",
+      "DRAGON"
+    ],
+    "stats": [
+      40,
+      30,
+      35,
+      45,
+      40,
+      55
+    ],
+    "weight": 8,
+    "catch_rate": 190
+  },
+  "noivern": {
+    "type": [
+      "FLYING",
+      "DRAGON"
+    ],
+    "stats": [
+      85,
+      70,
+      80,
+      97,
+      80,
+      123
+    ],
+    "weight": 85,
+    "catch_rate": 45
+  },
+  "xerneas": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      126,
+      131,
+      95,
+      131,
+      98,
+      99
+    ],
+    "weight": 215,
+    "catch_rate": 45
+  },
+  "yveltal": {
+    "type": [
+      "DARK",
+      "FLYING"
+    ],
+    "stats": [
+      126,
+      131,
+      95,
+      131,
+      98,
+      99
+    ],
+    "weight": 203,
+    "catch_rate": 45
+  },
+  "zygarde": {
+    "type": [
+      "DRAGON",
+      "GROUND"
+    ],
+    "stats": [
+      108,
+      100,
+      121,
+      81,
+      95,
+      95
+    ],
+    "weight": 305,
+    "catch_rate": 3
+  },
+  "diancie": {
+    "type": [
+      "ROCK",
+      "FAIRY"
+    ],
+    "stats": [
+      50,
+      100,
+      150,
+      100,
+      150,
+      50
+    ],
+    "weight": 8.8,
+    "catch_rate": 3
+  },
+  "hoopa": {
+    "type": [
+      "PSYCHIC",
+      "GHOST"
+    ],
+    "stats": [
+      80,
+      110,
+      60,
+      150,
+      130,
+      70
+    ],
+    "weight": 9,
+    "catch_rate": 3
+  },
+  "volcanion": {
+    "type": [
+      "FIRE",
+      "WATER"
+    ],
+    "stats": [
+      80,
+      110,
+      120,
+      130,
+      90,
+      70
+    ],
+    "weight": 195,
+    "catch_rate": 3
+  },
+  "rowlet": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      68,
+      55,
+      55,
+      50,
+      50,
+      42
+    ],
+    "weight": 1.5,
+    "catch_rate": 45
+  },
+  "dartrix": {
+    "type": [
+      "GRASS",
+      "FLYING"
+    ],
+    "stats": [
+      78,
+      75,
+      75,
+      70,
+      70,
+      52
+    ],
+    "weight": 16,
+    "catch_rate": 45
+  },
+  "decidueye": {
+    "type": [
+      "GRASS",
+      "GHOST"
+    ],
+    "stats": [
+      78,
+      107,
+      75,
+      100,
+      100,
+      70
+    ],
+    "weight": 36.6,
+    "catch_rate": 45
+  },
+  "litten": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      65,
+      40,
+      60,
+      40,
+      70
+    ],
+    "weight": 4.3,
+    "catch_rate": 45
+  },
+  "torracat": {
+    "type": [
+      "FIRE",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      85,
+      50,
+      80,
+      50,
+      90
+    ],
+    "weight": 25,
+    "catch_rate": 45
+  },
+  "incineroar": {
+    "type": [
+      "FIRE",
+      "DARK"
+    ],
+    "stats": [
+      95,
+      115,
+      90,
+      80,
+      90,
+      60
+    ],
+    "weight": 83,
+    "catch_rate": 45
+  },
+  "popplio": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      50,
+      54,
+      54,
+      66,
+      56,
+      40
+    ],
+    "weight": 7.5,
+    "catch_rate": 45
+  },
+  "brionne": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      60,
+      69,
+      69,
+      91,
+      81,
+      50
+    ],
+    "weight": 17.5,
+    "catch_rate": 45
+  },
+  "primarina": {
+    "type": [
+      "WATER",
+      "FAIRY"
+    ],
+    "stats": [
+      80,
+      74,
+      74,
+      126,
+      116,
+      60
+    ],
+    "weight": 44,
+    "catch_rate": 45
+  },
+  "pikipek": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      35,
+      75,
+      30,
+      30,
+      30,
+      65
+    ],
+    "weight": 1.2,
+    "catch_rate": 255
+  },
+  "trumbeak": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      55,
+      85,
+      50,
+      40,
+      50,
+      75
+    ],
+    "weight": 14.8,
+    "catch_rate": 120
+  },
+  "toucannon": {
+    "type": [
+      "NORMAL",
+      "FLYING"
+    ],
+    "stats": [
+      80,
+      120,
+      75,
+      75,
+      75,
+      60
+    ],
+    "weight": 26,
+    "catch_rate": 45
+  },
+  "yungoos": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      48,
+      70,
+      30,
+      30,
+      30,
+      45
+    ],
+    "weight": 6,
+    "catch_rate": 255
+  },
+  "gumshoos": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      88,
+      110,
+      60,
+      55,
+      60,
+      45
+    ],
+    "weight": 14.2,
+    "catch_rate": 127
+  },
+  "grubbin": {
+    "type": [
+      "BUG",
+      "NONE"
+    ],
+    "stats": [
+      47,
+      62,
+      45,
+      55,
+      45,
+      46
+    ],
+    "weight": 4.4,
+    "catch_rate": 255
+  },
+  "charjabug": {
+    "type": [
+      "BUG",
+      "ELECTRIC"
+    ],
+    "stats": [
+      57,
+      82,
+      95,
+      55,
+      75,
+      36
+    ],
+    "weight": 10.5,
+    "catch_rate": 120
+  },
+  "vikavolt": {
+    "type": [
+      "BUG",
+      "ELECTRIC"
+    ],
+    "stats": [
+      77,
+      70,
+      90,
+      145,
+      75,
+      43
+    ],
+    "weight": 45,
+    "catch_rate": 45
+  },
+  "crabrawler": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      47,
+      82,
+      57,
+      42,
+      47,
+      63
+    ],
+    "weight": 7,
+    "catch_rate": 225
+  },
+  "crabominable": {
+    "type": [
+      "FIGHTING",
+      "ICE"
+    ],
+    "stats": [
+      97,
+      132,
+      77,
+      62,
+      67,
+      43
+    ],
+    "weight": 180,
+    "catch_rate": 60
+  },
+  "oricorio": {
+    "type": [
+      "FIRE",
+      "FLYING"
+    ],
+    "stats": [
+      75,
+      70,
+      70,
+      98,
+      70,
+      93
+    ],
+    "weight": 3.4,
+    "catch_rate": 45
+  },
+  "cutiefly": {
+    "type": [
+      "BUG",
+      "FAIRY"
+    ],
+    "stats": [
+      40,
+      45,
+      40,
+      55,
+      40,
+      84
+    ],
+    "weight": 0.2,
+    "catch_rate": 190
+  },
+  "ribombee": {
+    "type": [
+      "BUG",
+      "FAIRY"
+    ],
+    "stats": [
+      60,
+      55,
+      60,
+      95,
+      70,
+      124
+    ],
+    "weight": 0.5,
+    "catch_rate": 75
+  },
+  "rockruff": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      65,
+      40,
+      30,
+      40,
+      60
+    ],
+    "weight": 9.2,
+    "catch_rate": 190
+  },
+  "lycanroc": {
+    "type": [
+      "ROCK",
+      "NONE"
+    ],
+    "stats": [
+      75,
+      115,
+      65,
+      55,
+      65,
+      112
+    ],
+    "weight": 25,
+    "catch_rate": 90
+  },
+  "wishiwashi": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      20,
+      20,
+      25,
+      25,
+      40
+    ],
+    "weight": 0.3,
+    "catch_rate": 60
+  },
+  "mareanie": {
+    "type": [
+      "POISON",
+      "WATER"
+    ],
+    "stats": [
+      50,
+      53,
+      62,
+      43,
+      52,
+      45
+    ],
+    "weight": 8,
+    "catch_rate": 190
+  },
+  "toxapex": {
+    "type": [
+      "POISON",
+      "WATER"
+    ],
+    "stats": [
+      50,
+      63,
+      152,
+      53,
+      142,
+      35
+    ],
+    "weight": 14.5,
+    "catch_rate": 75
+  },
+  "mudbray": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      100,
+      70,
+      45,
+      55,
+      45
+    ],
+    "weight": 110,
+    "catch_rate": 190
+  },
+  "mudsdale": {
+    "type": [
+      "GROUND",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      125,
+      100,
+      55,
+      85,
+      35
+    ],
+    "weight": 920,
+    "catch_rate": 60
+  },
+  "dewpider": {
+    "type": [
+      "WATER",
+      "BUG"
+    ],
+    "stats": [
+      38,
+      40,
+      52,
+      40,
+      72,
+      27
+    ],
+    "weight": 4,
+    "catch_rate": 200
+  },
+  "araquanid": {
+    "type": [
+      "WATER",
+      "BUG"
+    ],
+    "stats": [
+      68,
+      70,
+      92,
+      50,
+      132,
+      42
+    ],
+    "weight": 82,
+    "catch_rate": 100
+  },
+  "fomantis": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      40,
+      55,
+      35,
+      50,
+      35,
+      35
+    ],
+    "weight": 1.5,
+    "catch_rate": 190
+  },
+  "lurantis": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      70,
+      105,
+      90,
+      80,
+      90,
+      45
+    ],
+    "weight": 18.5,
+    "catch_rate": 75
+  },
+  "morelull": {
+    "type": [
+      "GRASS",
+      "FAIRY"
+    ],
+    "stats": [
+      40,
+      35,
+      55,
+      65,
+      75,
+      15
+    ],
+    "weight": 1.5,
+    "catch_rate": 190
+  },
+  "shiinotic": {
+    "type": [
+      "GRASS",
+      "FAIRY"
+    ],
+    "stats": [
+      60,
+      45,
+      80,
+      90,
+      100,
+      30
+    ],
+    "weight": 11.5,
+    "catch_rate": 75
+  },
+  "salandit": {
+    "type": [
+      "POISON",
+      "FIRE"
+    ],
+    "stats": [
+      48,
+      44,
+      40,
+      71,
+      40,
+      77
+    ],
+    "weight": 4.8,
+    "catch_rate": 120
+  },
+  "salazzle": {
+    "type": [
+      "POISON",
+      "FIRE"
+    ],
+    "stats": [
+      68,
+      64,
+      60,
+      111,
+      60,
+      117
+    ],
+    "weight": 22.2,
+    "catch_rate": 45
+  },
+  "stufful": {
+    "type": [
+      "NORMAL",
+      "FIGHTING"
+    ],
+    "stats": [
+      70,
+      75,
+      50,
+      45,
+      50,
+      50
+    ],
+    "weight": 6.8,
+    "catch_rate": 140
+  },
+  "bewear": {
+    "type": [
+      "NORMAL",
+      "FIGHTING"
+    ],
+    "stats": [
+      120,
+      125,
+      80,
+      55,
+      60,
+      60
+    ],
+    "weight": 135,
+    "catch_rate": 70
+  },
+  "bounsweet": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      42,
+      30,
+      38,
+      30,
+      38,
+      32
+    ],
+    "weight": 3.2,
+    "catch_rate": 235
+  },
+  "steenee": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      52,
+      40,
+      48,
+      40,
+      48,
+      62
+    ],
+    "weight": 8.2,
+    "catch_rate": 120
+  },
+  "tsareena": {
+    "type": [
+      "GRASS",
+      "NONE"
+    ],
+    "stats": [
+      72,
+      120,
+      98,
+      50,
+      98,
+      72
+    ],
+    "weight": 21.4,
+    "catch_rate": 45
+  },
+  "comfey": {
+    "type": [
+      "FAIRY",
+      "NONE"
+    ],
+    "stats": [
+      51,
+      52,
+      90,
+      82,
+      110,
+      100
+    ],
+    "weight": 0.3,
+    "catch_rate": 60
+  },
+  "oranguru": {
+    "type": [
+      "NORMAL",
+      "PSYCHIC"
+    ],
+    "stats": [
+      90,
+      60,
+      80,
+      90,
+      110,
+      60
+    ],
+    "weight": 76,
+    "catch_rate": 45
+  },
+  "passimian": {
+    "type": [
+      "FIGHTING",
+      "NONE"
+    ],
+    "stats": [
+      100,
+      120,
+      90,
+      40,
+      60,
+      80
+    ],
+    "weight": 82.8,
+    "catch_rate": 45
+  },
+  "wimpod": {
+    "type": [
+      "BUG",
+      "WATER"
+    ],
+    "stats": [
+      25,
+      35,
+      40,
+      20,
+      30,
+      80
+    ],
+    "weight": 12,
+    "catch_rate": 90
+  },
+  "golisopod": {
+    "type": [
+      "BUG",
+      "WATER"
+    ],
+    "stats": [
+      75,
+      125,
+      140,
+      60,
+      90,
+      40
+    ],
+    "weight": 108,
+    "catch_rate": 45
+  },
+  "sandygast": {
+    "type": [
+      "GHOST",
+      "GROUND"
+    ],
+    "stats": [
+      55,
+      55,
+      80,
+      70,
+      45,
+      15
+    ],
+    "weight": 70,
+    "catch_rate": 140
+  },
+  "palossand": {
+    "type": [
+      "GHOST",
+      "GROUND"
+    ],
+    "stats": [
+      85,
+      75,
+      110,
+      100,
+      75,
+      35
+    ],
+    "weight": 250,
+    "catch_rate": 60
+  },
+  "pyukumuku": {
+    "type": [
+      "WATER",
+      "NONE"
+    ],
+    "stats": [
+      55,
+      60,
+      130,
+      30,
+      130,
+      5
+    ],
+    "weight": 1.2,
+    "catch_rate": 60
+  },
+  "type: null": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      95,
+      95,
+      95,
+      95,
+      59
+    ],
+    "weight": 120.5,
+    "catch_rate": 3
+  },
+  "silvally": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      95,
+      95,
+      95,
+      95,
+      95,
+      95
+    ],
+    "weight": 100.5,
+    "catch_rate": 3
+  },
+  "minior": {
+    "type": [
+      "ROCK",
+      "FLYING"
+    ],
+    "stats": [
+      60,
+      60,
+      100,
+      60,
+      100,
+      60
+    ],
+    "weight": 40,
+    "catch_rate": 30
+  },
+  "komala": {
+    "type": [
+      "NORMAL",
+      "NONE"
+    ],
+    "stats": [
+      65,
+      115,
+      65,
+      75,
+      95,
+      65
+    ],
+    "weight": 19.9,
+    "catch_rate": 45
+  },
+  "turtonator": {
+    "type": [
+      "FIRE",
+      "DRAGON"
+    ],
+    "stats": [
+      60,
+      78,
+      135,
+      91,
+      85,
+      36
+    ],
+    "weight": 212,
+    "catch_rate": 70
+  },
+  "togedemaru": {
+    "type": [
+      "ELECTRIC",
+      "STEEL"
+    ],
+    "stats": [
+      65,
+      98,
+      63,
+      40,
+      73,
+      96
+    ],
+    "weight": 3.3,
+    "catch_rate": 180
+  },
+  "mimikyu": {
+    "type": [
+      "GHOST",
+      "FAIRY"
+    ],
+    "stats": [
+      55,
+      90,
+      80,
+      50,
+      105,
+      96
+    ],
+    "weight": 0.7,
+    "catch_rate": 45
+  },
+  "bruxish": {
+    "type": [
+      "WATER",
+      "PSYCHIC"
+    ],
+    "stats": [
+      68,
+      105,
+      70,
+      70,
+      70,
+      92
+    ],
+    "weight": 19,
+    "catch_rate": 80
+  },
+  "drampa": {
+    "type": [
+      "NORMAL",
+      "DRAGON"
+    ],
+    "stats": [
+      78,
+      60,
+      85,
+      135,
+      91,
+      36
+    ],
+    "weight": 185,
+    "catch_rate": 70
+  },
+  "dhelmise": {
+    "type": [
+      "GHOST",
+      "GRASS"
+    ],
+    "stats": [
+      70,
+      131,
+      100,
+      86,
+      90,
+      40
+    ],
+    "weight": 210,
+    "catch_rate": 25
+  },
+  "jangmo-o": {
+    "type": [
+      "DRAGON",
+      "NONE"
+    ],
+    "stats": [
+      45,
+      55,
+      65,
+      45,
+      45,
+      45
+    ],
+    "weight": 29.7,
+    "catch_rate": 45
+  },
+  "hakamo-o": {
+    "type": [
+      "DRAGON",
+      "FIGHTING"
+    ],
+    "stats": [
+      55,
+      75,
+      90,
+      65,
+      70,
+      65
+    ],
+    "weight": 47,
+    "catch_rate": 45
+  },
+  "kommo-o": {
+    "type": [
+      "DRAGON",
+      "FIGHTING"
+    ],
+    "stats": [
+      75,
+      110,
+      125,
+      100,
+      105,
+      85
+    ],
+    "weight": 78.2,
+    "catch_rate": 45
+  },
+  "tapu koko": {
+    "type": [
+      "ELECTRIC",
+      "FAIRY"
+    ],
+    "stats": [
+      70,
+      115,
+      85,
+      95,
+      75,
+      130
+    ],
+    "weight": 20.5,
+    "catch_rate": 3
+  },
+  "tapu lele": {
+    "type": [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    "stats": [
+      70,
+      85,
+      75,
+      130,
+      115,
+      95
+    ],
+    "weight": 18.6,
+    "catch_rate": 3
+  },
+  "tapu bulu": {
+    "type": [
+      "GRASS",
+      "FAIRY"
+    ],
+    "stats": [
+      70,
+      130,
+      115,
+      85,
+      95,
+      75
+    ],
+    "weight": 45.5,
+    "catch_rate": 3
+  },
+  "tapu fini": {
+    "type": [
+      "WATER",
+      "FAIRY"
+    ],
+    "stats": [
+      70,
+      75,
+      115,
+      95,
+      130,
+      85
+    ],
+    "weight": 21.2,
+    "catch_rate": 3
+  },
+  "cosmog": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      43,
+      29,
+      31,
+      29,
+      31,
+      37
+    ],
+    "weight": 0.1,
+    "catch_rate": 3
+  },
+  "cosmoem": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      43,
+      29,
+      131,
+      29,
+      131,
+      37
+    ],
+    "weight": 999.9,
+    "catch_rate": 3
+  },
+  "solgaleo": {
+    "type": [
+      "PSYCHIC",
+      "STEEL"
+    ],
+    "stats": [
+      137,
+      137,
+      107,
+      113,
+      89,
+      97
+    ],
+    "weight": 230,
+    "catch_rate": 3
+  },
+  "lunala": {
+    "type": [
+      "PSYCHIC",
+      "GHOST"
+    ],
+    "stats": [
+      137,
+      113,
+      89,
+      137,
+      107,
+      97
+    ],
+    "weight": 120,
+    "catch_rate": 3
+  },
+  "nihilego": {
+    "type": [
+      "ROCK",
+      "POISON"
+    ],
+    "stats": [
+      109,
+      53,
+      47,
+      127,
+      131,
+      103
+    ],
+    "weight": 55.5,
+    "catch_rate": 45
+  },
+  "buzzwole": {
+    "type": [
+      "BUG",
+      "FIGHTING"
+    ],
+    "stats": [
+      107,
+      139,
+      139,
+      53,
+      53,
+      79
+    ],
+    "weight": 333.6,
+    "catch_rate": 45
+  },
+  "pheromosa": {
+    "type": [
+      "BUG",
+      "FIGHTING"
+    ],
+    "stats": [
+      71,
+      137,
+      37,
+      137,
+      37,
+      151
+    ],
+    "weight": 25,
+    "catch_rate": 45
+  },
+  "xurkitree": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      83,
+      89,
+      71,
+      173,
+      71,
+      83
+    ],
+    "weight": 100,
+    "catch_rate": 45
+  },
+  "celesteela": {
+    "type": [
+      "STEEL",
+      "FLYING"
+    ],
+    "stats": [
+      97,
+      101,
+      103,
+      107,
+      101,
+      61
+    ],
+    "weight": 999.9,
+    "catch_rate": 45
+  },
+  "kartana": {
+    "type": [
+      "GRASS",
+      "STEEL"
+    ],
+    "stats": [
+      59,
+      181,
+      131,
+      59,
+      31,
+      109
+    ],
+    "weight": 0.1,
+    "catch_rate": 45
+  },
+  "guzzlord": {
+    "type": [
+      "DARK",
+      "DRAGON"
+    ],
+    "stats": [
+      223,
+      101,
+      53,
+      97,
+      53,
+      43
+    ],
+    "weight": 888,
+    "catch_rate": 45
+  },
+  "necrozma": {
+    "type": [
+      "PSYCHIC",
+      "NONE"
+    ],
+    "stats": [
+      97,
+      107,
+      101,
+      127,
+      89,
+      79
+    ],
+    "weight": 230,
+    "catch_rate": 3
+  },
+  "magearna": {
+    "type": [
+      "STEEL",
+      "FAIRY"
+    ],
+    "stats": [
+      80,
+      95,
+      115,
+      130,
+      115,
+      65
+    ],
+    "weight": 80.5,
+    "catch_rate": 3
+  },
+  "marshadow": {
+    "type": [
+      "FIGHTING",
+      "GHOST"
+    ],
+    "stats": [
+      90,
+      125,
+      80,
+      90,
+      90,
+      125
+    ],
+    "weight": 22.2,
+    "catch_rate": 3
+  },
+  "poipole": {
+    "type": [
+      "POISON",
+      "NONE"
+    ],
+    "stats": [
+      67,
+      73,
+      67,
+      73,
+      67,
+      73
+    ],
+    "weight": 1.8,
+    "catch_rate": 45
+  },
+  "naganadel": {
+    "type": [
+      "POISON",
+      "DRAGON"
+    ],
+    "stats": [
+      73,
+      73,
+      73,
+      127,
+      73,
+      121
+    ],
+    "weight": 150,
+    "catch_rate": 45
+  },
+  "stakataka": {
+    "type": [
+      "ROCK",
+      "STEEL"
+    ],
+    "stats": [
+      61,
+      131,
+      211,
+      53,
+      101,
+      13
+    ],
+    "weight": 820,
+    "catch_rate": 30
+  },
+  "blacephalon": {
+    "type": [
+      "FIRE",
+      "GHOST"
+    ],
+    "stats": [
+      53,
+      127,
+      53,
+      151,
+      79,
+      107
+    ],
+    "weight": 13,
+    "catch_rate": 30
+  },
+  "zeraora": {
+    "type": [
+      "ELECTRIC",
+      "NONE"
+    ],
+    "stats": [
+      88,
+      112,
+      75,
+      102,
+      80,
+      143
+    ],
+    "weight": 44.5,
+    "catch_rate": 3
+  },
+  "meltan": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      46,
+      65,
+      65,
+      55,
+      35,
+      34
+    ],
+    "weight": 8.0,
+    "catch_rate": 3
+  },
+  "melmetal": {
+    "type": [
+      "STEEL",
+      "NONE"
+    ],
+    "stats": [
+      135,
+      143,
+      143,
+      80,
+      65,
+      34
+    ],
+    "weight": 800.0,
+    "catch_rate": 3
+  }
 }
