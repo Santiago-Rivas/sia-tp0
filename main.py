@@ -179,10 +179,10 @@ if __name__ == "__main__":
 
     pokemons = []
     for pokemon in pokemon_names:
-        print(pokemon)
         pokemons.append(factory.create(pokemon, 100, StatusEffect.NONE, 1))
 
     pokeballs = ["pokeball", "ultraball", "fastball", "heavyball"]
+
     stats_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
     iterations = 100
 
