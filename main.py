@@ -135,7 +135,6 @@ def plot_status(factory, pokemon_name):  # Agregar como parametros el pokemon
     tries = 100
     attempts = 1000
     pokemon = pokemon_name
-
     df = pd.DataFrame(columns=["name", "pokeball",
                       "status", "accuracy", "error"])
     for status in StatusEffect:
@@ -171,6 +170,40 @@ def plot_status(factory, pokemon_name):  # Agregar como parametros el pokemon
     plt.close()
 
 
+def plot_life(factory, pokemon_name):
+    attempts = 10
+    pokemon = pokemon_name
+    df = pd.DataFrame(columns=["name", "pokeball",
+                      "health", "accuracy", "error"])
+    for i in range(1,11):
+        health = i/10
+        new_pokemon = factory.create(pokemon, 100, StatusEffect.NONE, health)
+        for pokeball in pokeballs:
+            accuracies = []
+            for _ in range(10):
+                catched = 0
+                for _ in range(attempts):
+                    attempt, rate = attempt_catch(new_pokemon, pokeball)
+                    if attempt:
+                        catched += 1
+                accuracies.append(rate)
+            df.loc[len(df)] = [pokemon, pokeball, health, np.mean(accuracies), np.std(accuracies)]
+
+
+
+    for pokeball in df["pokeball"].unique():
+        df_pokeball = df[df["pokeball"] == pokeball]
+        plt.plot(df_pokeball['health'], df_pokeball['accuracy'], color=colors[pokeball], marker='o', label=pokeball)
+        plt.errorbar(df_pokeball['health'], df_pokeball['accuracy'], df_pokeball['error'], fmt='none', color=colors[pokeball], capsize=3)
+
+    plt.title('accuracy vs health for '+ pokemon_name, fontsize=14)
+    plt.xlabel('health', fontsize=14)
+    plt.ylabel('accuracy', fontsize=14)
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+    plt.close()
+
 if __name__ == "__main__":
     factory = PokemonFactory("pokemon.json")
 
@@ -189,22 +222,23 @@ if __name__ == "__main__":
 
     stats_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
     iterations = 1000
+    
+     for _ in range(iterations):
+         for pokemon in pokemons:
+             for pokeball in pokeballs:
+                 catched = int(attempt_catch(pokemon, pokeball)[0])
+                 catched = catched / iterations
+                 stats_df.at[pokemon,
+                             pokeball] += catched
+    
+     print(stats_df)
+    
+     Remove all pokemons that were never catched
+     stats_df = stats_df[~(stats_df == 0).any(axis=1)]
 
-    for _ in range(iterations):
-        for pokemon in pokemons:
-            for pokeball in pokeballs:
-                catched = int(attempt_catch(pokemon, pokeball)[0])
-                catched = catched / iterations
-                stats_df.at[pokemon,
-                            pokeball] += catched
-
-    print(stats_df)
-
-    # Remove all pokemons that were never catched
-    stats_df = stats_df[~(stats_df == 0).any(axis=1)]
-
-    plot_pokeball_means(pokeballs, pokemons, stats_df)
-    plot_heavy(pokeballs, pokemons, stats_df)
-    plot_fast(pokeballs, pokemons, stats_df)
-    plot_ultra(pokeballs, pokemons, stats_df)
-    plot_status(factory, "pikachu")
+     plot_pokeball_means(pokeballs, pokemons, stats_df)
+     plot_heavy(pokeballs, pokemons, stats_df)
+     plot_fast(pokeballs, pokemons, stats_df)
+     plot_ultra(pokeballs, pokemons, stats_df)
+     plot_status(factory, "ponyta")
+     plot_life(factory,"dragonair")
