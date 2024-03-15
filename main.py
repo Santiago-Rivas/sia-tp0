@@ -181,7 +181,6 @@ def plot_status(factory, pokemon_name):  # Agregar como parametros el pokemon
     tries = 100
     attempts = 1000
     pokemon = pokemon_name
-
     df = pd.DataFrame(columns=["name", "pokeball",
                       "status", "accuracy", "error"])
     for status in StatusEffect:
@@ -210,6 +209,42 @@ def plot_status(factory, pokemon_name):  # Agregar como parametros el pokemon
 
     plt.title('accuracy vs status for ' + pokemon, fontsize=14)
     plt.xlabel('status', fontsize=14)
+    plt.ylabel('accuracy', fontsize=14)
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+    plt.close()
+
+
+def plot_life(factory, pokemon_name):
+    attempts = 10
+    pokemon = pokemon_name
+    df = pd.DataFrame(columns=["name", "pokeball",
+                      "health", "accuracy", "error"])
+    for i in range(1, 11):
+        health = i/10
+        new_pokemon = factory.create(pokemon, 100, StatusEffect.NONE, health)
+        for pokeball in pokeballs:
+            accuracies = []
+            for _ in range(10):
+                catched = 0
+                for _ in range(attempts):
+                    attempt, rate = attempt_catch(new_pokemon, pokeball)
+                    if attempt:
+                        catched += 1
+                accuracies.append(rate)
+            df.loc[len(df)] = [pokemon, pokeball, health,
+                               np.mean(accuracies), np.std(accuracies)]
+
+    for pokeball in df["pokeball"].unique():
+        df_pokeball = df[df["pokeball"] == pokeball]
+        plt.plot(df_pokeball['health'], df_pokeball['accuracy'],
+                 color=colors[pokeball], marker='o', label=pokeball)
+        plt.errorbar(df_pokeball['health'], df_pokeball['accuracy'],
+                     df_pokeball['error'], fmt='none', color=colors[pokeball], capsize=3)
+
+    plt.title('accuracy vs health for ' + pokemon_name, fontsize=14)
+    plt.xlabel('health', fontsize=14)
     plt.ylabel('accuracy', fontsize=14)
     plt.legend()
     plt.grid(True)
@@ -260,3 +295,4 @@ if __name__ == "__main__":
     plot_fast(pokeballs, stats_df, error_df)
     plot_ultra(pokeballs, stats_df, error_df)
     plot_status(factory, "pikachu")
+    plot_life(factory, "dragonair")
