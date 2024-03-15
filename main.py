@@ -10,15 +10,19 @@ from IPython.display import display
 
 def plot_pokeball_means(pokeballs, pokemons, stats_df):
     pokeballs_mean = {}
+    pokeballs_std = {}
 
     for pokeball in pokeballs:
         pokeballs_mean[pokeball] = round(
             stats_df[pokeball].mean(), 10)
+        pokeballs_std[pokeball] = round(
+            stats_df[pokeball].std(), 10)
 
     print(pokeballs_mean)
 
     # Creating the bar plot
-    plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue')
+    # plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue')
+    plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue', yerr=pokeballs_std.values(), capsize=5)
 
     # Adding title and labels
     plt.title('Mean Stats for Different Pokeballs')
@@ -184,7 +188,7 @@ if __name__ == "__main__":
     pokeballs = ["pokeball", "ultraball", "fastball", "heavyball"]
 
     stats_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
-    iterations = 100
+    iterations = 1000
 
     for _ in range(iterations):
         for pokemon in pokemons:
