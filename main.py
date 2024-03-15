@@ -22,7 +22,8 @@ def plot_pokeball_means(pokeballs, pokemons, stats_df):
 
     # Creating the bar plot
     # plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue')
-    plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue', yerr=pokeballs_std.values(), capsize=5)
+    plt.bar(pokeballs, pokeballs_mean.values(), color='skyblue',
+            yerr=pokeballs_std.values(), capsize=5)
 
     # Adding title and labels
     plt.title('Mean Stats for Different Pokeballs')
@@ -35,23 +36,41 @@ def plot_pokeball_means(pokeballs, pokemons, stats_df):
     plt.show()
 
 
-def plot_heavy(pokeballs, pokemons, stats_df):
+def plot_heavy(pokeballs, stats_df, error_df):
     # Create a list to store all x and y values
     x_values = []
     y_values = []
     hue_values = []
+    y_errors = []
+
+    # x_values.append(index.weight)
+    # y_values.append(value/stats_df.at[index, "pokeball"])
+    # hue_values.append(pokeball)
+    # y_errors.append(error_df.at[index, pokeball])
 
     # Iterate over rows of stats_df and store values
     for index, row in stats_df.iterrows():
         for pokeball, value in row.items():
             if (pokeball == "pokeball" or pokeball == "heavyball"):
+                pokeball_value = stats_df.at[index, "pokeball"]
+                norm_value = value / pokeball_value
                 x_values.append(index.weight)
-                y_values.append(value/stats_df.at[index, "pokeball"])
+                y_values.append(norm_value)
                 hue_values.append(pokeball)
 
+                # Calculate error using error propagation formula for division
+                value_error = error_df.at[index, pokeball]
+                pokeball_error = error_df.at[index, "pokeball"]
+                y_error = np.abs(norm_value) * np.sqrt(((value_error / value)
+                                                        ** 2) + ((pokeball_error / pokeball_value)**2))
+                y_errors.append(y_error)
+
     # Create scatter plot with all series
-    sns.lineplot(x=x_values, y=y_values, hue=hue_values,
-                 markers=True, marker='o', markersize=8, ci=None)
+    sns.scatterplot(x=x_values, y=y_values, hue=hue_values,
+                    markers=False, marker='o', s=15, edgecolor='k')
+
+    plt.errorbar(x=x_values, y=y_values, yerr=y_errors,
+                 fmt='none', c='grey', zorder=-1, capsize=2)
 
     # Add title and labels
     plt.title('Scatter Plot for All Series')
@@ -63,23 +82,35 @@ def plot_heavy(pokeballs, pokemons, stats_df):
     plt.show()
 
 
-def plot_fast(pokeballs, pokemons, stats_df):
+def plot_fast(pokeballs, stats_df, error_df):
     # Create a list to store all x and y values
     x_values = []
     y_values = []
     hue_values = []
+    y_errors = []
 
     # Iterate over rows of stats_df and store values
     for index, row in stats_df.iterrows():
         for pokeball, value in row.items():
             if (pokeball == "pokeball" or pokeball == "fastball"):
+                pokeball_value = stats_df.at[index, "pokeball"]
+                norm_value = value / pokeball_value
                 x_values.append(index.stats[-1])
-                y_values.append(value/stats_df.at[index, "pokeball"])
+                y_values.append(norm_value)
                 hue_values.append(pokeball)
 
+                # Calculate error using error propagation formula for division
+                value_error = error_df.at[index, pokeball]
+                pokeball_error = error_df.at[index, "pokeball"]
+                y_error = np.abs(norm_value) * np.sqrt(((value_error / value)
+                                                        ** 2) + ((pokeball_error / pokeball_value)**2))
+                y_errors.append(y_error)
+
     # Create scatter plot with all series
-    sns.lineplot(x=x_values, y=y_values, hue=hue_values,
-                 markers=True, marker='o', markersize=8, ci=None)
+    sns.scatterplot(x=x_values, y=y_values, hue=hue_values,
+                    markers=True, marker='o', s=15, edgecolor='k')
+    plt.errorbar(x=x_values, y=y_values, yerr=y_errors,
+                 fmt='none', c='grey', zorder=-1, capsize=2)
 
     # Add title and labels
     plt.title('Scatter Plot for All Series')
@@ -91,27 +122,42 @@ def plot_fast(pokeballs, pokemons, stats_df):
     plt.show()
 
 
-def plot_ultra(pokeballs, pokemons, stats_df):
+def plot_ultra(pokeballs, stats_df, error):
     # Create a list to store all x and y values
     x_values = []
     y_values = []
     hue_values = []
+    y_errors = []
     i = 1
 
     # Iterate over rows of stats_df and store values
     for index, row in stats_df.iterrows():
-        for pokeball, value in row.items():
-            if (pokeball == "pokeball" or pokeball == "ultraball"):
-                x_values.append(i)
-                y_values.append(value/stats_df.at[index, "pokeball"])
-                hue_values.append(pokeball)
-                i = i + 1
+        if i % 5 == 0:
+            for pokeball, value in row.items():
+                if (pokeball == "pokeball" or pokeball == "ultraball"):
+                    pokeball_value = stats_df.at[index, "pokeball"]
+                    norm_value = value / pokeball_value
+                    x_values.append(i)
+                    y_values.append(norm_value)
+                    hue_values.append(pokeball)
+
+                    # Calculate error using error propagation formula for division
+                    value_error = error_df.at[index, pokeball]
+                    pokeball_error = error_df.at[index, "pokeball"]
+                    y_error = np.abs(norm_value) * np.sqrt(((value_error / value)
+                                                            ** 2) + ((pokeball_error / pokeball_value)**2))
+
+                    y_errors.append(y_error)
+        i = i + 1
 
     # Create a DataFrame from the x, y, and hue_values lists
     df = pd.DataFrame({'x': x_values, 'y': y_values, 'group': hue_values})
 
-    sns.lmplot(x='x', y='y', data=df, hue='group', ci=None,
+    sns.lmplot(x='x', y='y', data=df, hue='group',
                line_kws={'linewidth': 2}, scatter_kws={'s': 20})
+
+    plt.errorbar(x=x_values, y=y_values, yerr=y_errors,
+                 fmt='none', zorder=-1, capsize=2, c="grey")
 
     # Add title and labels
     plt.title('Scatter Plot for All Series')
@@ -188,23 +234,29 @@ if __name__ == "__main__":
     pokeballs = ["pokeball", "ultraball", "fastball", "heavyball"]
 
     stats_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
-    iterations = 1000
+    error_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
+    iterations = 100
 
-    for _ in range(iterations):
+    for pokeball in pokeballs:
+        accuracies = []
         for pokemon in pokemons:
-            for pokeball in pokeballs:
+            for _ in range(iterations):
                 catched = int(attempt_catch(pokemon, pokeball)[0])
                 catched = catched / iterations
                 stats_df.at[pokemon,
                             pokeball] += catched
+                accuracies.append(catched)
+            error_df.at[pokemon,
+                        pokeball] = np.std(accuracies)
 
     print(stats_df)
 
     # Remove all pokemons that were never catched
+    error_df = error_df[~(stats_df == 0).any(axis=1)]
     stats_df = stats_df[~(stats_df == 0).any(axis=1)]
 
     plot_pokeball_means(pokeballs, pokemons, stats_df)
-    plot_heavy(pokeballs, pokemons, stats_df)
-    plot_fast(pokeballs, pokemons, stats_df)
-    plot_ultra(pokeballs, pokemons, stats_df)
+    plot_heavy(pokeballs, stats_df, error_df)
+    plot_fast(pokeballs, stats_df, error_df)
+    plot_ultra(pokeballs, stats_df, error_df)
     plot_status(factory, "pikachu")
