@@ -25,9 +25,9 @@ def plot_pokeball_means(pokeballs, pokemons, stats_df):
             yerr=pokeballs_std.values(), capsize=5)
 
     # Adding title and labels
-    plt.title('Mean Stats for Different Pokeballs')
+    plt.title('Mean probability for Different Pokeballs')
     plt.xlabel('Pokeballs')
-    plt.ylabel('Mean Stats')
+    plt.ylabel('Probability')
 
     # Displaying the plot
     plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
@@ -72,9 +72,9 @@ def plot_heavy(pokeballs, stats_df, error_df):
                  fmt='none', c='grey', zorder=-1, capsize=2)
 
     # Add title and labels
-    plt.title('Scatter Plot for All Series')
+    plt.title('Effectiveness of the Heavyball compared to the Pokeball')
     plt.xlabel('Weight')
-    plt.ylabel('Value')
+    plt.ylabel('Effectiveness')
 
     # Show the plot
     plt.legend(title='Pokeballs')
@@ -112,9 +112,9 @@ def plot_fast(pokeballs, stats_df, error_df):
                  fmt='none', c='grey', zorder=-1, capsize=2)
 
     # Add title and labels
-    plt.title('Scatter Plot for All Series')
+    plt.title('Effectiveness of the Fastball compared to the Pokeball')
     plt.xlabel('Speed')
-    plt.ylabel('Value')
+    plt.ylabel('Effectiveness')
 
     # Show the plot
     plt.legend(title='Pokeballs')
@@ -131,40 +131,36 @@ def plot_ultra(pokeballs, stats_df, error_df):
 
     # Iterate over rows of stats_df and store values
     for index, row in stats_df.iterrows():
-        if i % 5 == 0:
-            for pokeball, value in row.items():
-                if (pokeball == "pokeball" or pokeball == "ultraball"):
-                    pokeball_value = stats_df.at[index, "pokeball"]
-                    norm_value = value / pokeball_value
-                    x_values.append(i)
-                    y_values.append(norm_value)
-                    hue_values.append(pokeball)
+        for pokeball, value in row.items():
+            if (pokeball == "pokeball" or pokeball == "ultraball"):
+                pokeball_value = stats_df.at[index, "pokeball"]
+                norm_value = value / pokeball_value
+                x_values.append(i)
+                y_values.append(norm_value)
+                hue_values.append(pokeball)
 
-                    # Calculate error using error propagation formula for division
-                    value_error = error_df.at[index, pokeball]
-                    pokeball_error = error_df.at[index, "pokeball"]
-                    y_error = np.abs(norm_value) * np.sqrt(((value_error / value)
-                                                            ** 2) + ((pokeball_error / pokeball_value)**2))
+                # Calculate error using error propagation formula for division
+                value_error = error_df.at[index, pokeball]
+                pokeball_error = error_df.at[index, "pokeball"]
+                y_error = np.abs(norm_value) * np.sqrt(((value_error / value)**2) + ((pokeball_error / pokeball_value)**2))
 
-                    y_errors.append(y_error)
+                y_errors.append(y_error)
         i = i + 1
 
     # Create a DataFrame from the x, y, and hue_values lists
     df = pd.DataFrame({'x': x_values, 'y': y_values, 'group': hue_values})
 
     sns.lmplot(x='x', y='y', data=df, hue='group',
-               line_kws={'linewidth': 2}, scatter_kws={'s': 20})
+               line_kws={'linewidth': 2}, scatter_kws={'s': 10})
 
     plt.errorbar(x=x_values, y=y_values, yerr=y_errors,
                  fmt='none', zorder=-1, capsize=2, c="grey")
 
     # Add title and labels
-    plt.title('Scatter Plot for All Series')
+    plt.title('Effectiveness of the Ultraball compared to the Pokeball')
     plt.xlabel('Pokemon Id')
-    plt.ylabel('Value')
+    plt.ylabel('Effectiveness')
 
-    # Show the plot
-    plt.legend(title='Pokeballs')
     plt.show()
 
 

@@ -20,8 +20,13 @@ if __name__ == "__main__":
     pokemon_names = list(data.keys())
 
     pokemons = []
+    i = 0
+    mod = 8
     for pokemon in pokemon_names:
-        pokemons.append(factory.create(pokemon, 100, StatusEffect.NONE, 1))
+        new_pokemon = factory.create(pokemon, 100, StatusEffect.NONE, 1)
+        if i % mod == 0 or new_pokemon.weight > 400:
+            pokemons.append(new_pokemon)
+        i += 1
 
     pokeballs = ["pokeball", "ultraball", "fastball", "heavyball"]
 
@@ -30,8 +35,8 @@ if __name__ == "__main__":
     iterations = 100
 
     for pokeball in pokeballs:
-        accuracies = []
         for pokemon in pokemons:
+            accuracies = []
             for _ in range(iterations):
                 catched = int(attempt_catch(pokemon, pokeball)[0])
                 catched = catched / iterations
@@ -51,5 +56,31 @@ if __name__ == "__main__":
     plot_heavy(pokeballs, stats_df, error_df)
     plot_fast(pokeballs, stats_df, error_df)
     plot_ultra(pokeballs, stats_df, error_df)
-    plot_status(factory, pokeballs, "pikachu")
-    plot_life(factory, pokeballs, "dragonair")
+
+    stats_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
+    error_df = pd.DataFrame(0.0, index=pokemons, columns=pokeballs)
+    iterations = 100
+    noise = 0.05
+
+    for pokeball in pokeballs:
+        for pokemon in pokemons:
+            accuracies = []
+            for _ in range(iterations):
+                catched = attempt_catch(pokemon, pokeball, noise)[1]
+                accuracies.append(catched)
+
+            stats_df.at[pokemon,
+                        pokeball] = np.mean(accuracies)
+            error_df.at[pokemon,
+                        pokeball] = np.std(accuracies)
+
+    print(stats_df)
+
+    # Remove all pokemons that were never catched
+    error_df = error_df[~(stats_df == 0).any(axis=1)]
+    stats_df = stats_df[~(stats_df == 0).any(axis=1)]
+
+    plot_pokeball_means(pokeballs, pokemons, stats_df)
+    plot_heavy(pokeballs, stats_df, error_df)
+    plot_fast(pokeballs, stats_df, error_df)
+    plot_ultra(pokeballs, stats_df, error_df)
