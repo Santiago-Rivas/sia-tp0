@@ -51,5 +51,5 @@ if __name__ == "__main__":
     plot_heavy(pokeballs, stats_df, error_df)
     plot_fast(pokeballs, stats_df, error_df)
     plot_ultra(pokeballs, stats_df, error_df)
-    plot_status(factory, "pikachu")
-    plot_life(factory, "dragonair")
+    plot_status(factory, pokeballs, "pikachu")
+    plot_life(factory, pokeballs, "dragonair")
