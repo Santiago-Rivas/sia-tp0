@@ -6,7 +6,7 @@ import numpy as np
 
 from src.functions import plot_pokeball_means
 from src.functions import plot_heavy, plot_fast, plot_ultra
-from src.functions import plot_status, plot_life
+from src.functions import plot_status, plot_life, plot_level
 
 
 if __name__ == "__main__":
@@ -84,3 +84,8 @@ if __name__ == "__main__":
     plot_heavy(pokeballs, stats_df, error_df)
     plot_fast(pokeballs, stats_df, error_df)
     plot_ultra(pokeballs, stats_df, error_df)
+
+    plot_status(factory, pokeballs, "pikachu")
+    plot_life(factory, pokeballs, "dragonair")
+    plot_level(factory,pokeballs,"snorlax")
+
