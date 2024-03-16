@@ -175,7 +175,6 @@ colors = {
     "heavyball": 'y',
 }
 
-
 def plot_status(factory, pokeballs, pokemon_name):  # Agregar como parametros el pokemon
     tries = 100
     attempts = 1000
@@ -215,6 +214,7 @@ def plot_status(factory, pokeballs, pokemon_name):  # Agregar como parametros el
     plt.close()
 
 
+
 def plot_life(factory, pokeballs, pokemon_name):
     attempts = 10
     pokemon = pokemon_name
@@ -235,6 +235,7 @@ def plot_life(factory, pokeballs, pokemon_name):
             df.loc[len(df)] = [pokemon, pokeball, health,
                                np.mean(accuracies), np.std(accuracies)]
 
+
     for pokeball in df["pokeball"].unique():
         df_pokeball = df[df["pokeball"] == pokeball]
         plt.plot(df_pokeball['health'], df_pokeball['accuracy'],
@@ -249,3 +250,44 @@ def plot_life(factory, pokeballs, pokemon_name):
     plt.grid(True)
     plt.show()
     plt.close()
+
+def plot_level(factory, pokeballs, pokemon_name):  # Agregar como parametros el pokemon
+    tries = 100
+    attempts = 1000
+    pokemon = pokemon_name
+    df = pd.DataFrame(columns=["name", "pokeball",
+                      "level", "accuracy", "error"])
+    for i in range(1, 11):
+        health = 1
+        level = i*10
+        new_pokemon = factory.create(pokemon, level, StatusEffect.NONE, health)
+        for pokeball in pokeballs:
+            accuracies = []
+            for _ in range(10):
+                catched = 0
+                for _ in range(attempts):
+                    attempt, rate = attempt_catch(new_pokemon, pokeball)
+                    if attempt:
+                        catched += 1
+                accuracies.append(catched/attempts)
+            df.loc[len(df)] = [pokemon, pokeball, level,
+                               np.mean(accuracies), np.std(accuracies)]
+
+
+
+    for pokeball in df["pokeball"].unique():
+        df_pokeball = df[df["pokeball"] == pokeball]
+        plt.plot(df_pokeball['level'], df_pokeball['accuracy'],
+                 color=colors[pokeball], marker='o', label=pokeball)
+        plt.errorbar(df_pokeball['level'], df_pokeball['accuracy'],
+                     df_pokeball['error'], fmt='none', color=colors[pokeball], capsize=3)
+
+    plt.title('accuracy vs level for ' + pokemon, fontsize=14)
+    plt.xlabel('level', fontsize=14)
+    plt.ylabel('accuracy', fontsize=14)
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+    plt.close()
+
+
